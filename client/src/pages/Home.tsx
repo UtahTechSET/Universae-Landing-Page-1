@@ -2,6 +2,9 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import SecondHeadline from "@/components/SecondHeadline";
 import BottomSection from "@/components/BottomSection";
+import BenefitsCurriculum from "@/components/BenefitsCurriculum";
+import FacultyBios from "@/components/FacultyBios";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import Footer from "@/components/Footer";
 
 const Home = () => {
@@ -13,6 +16,9 @@ const Home = () => {
         <HeroSection />
         <SecondHeadline />
         <BottomSection />
+        <BenefitsCurriculum />
+        <FacultyBios />
+        <WhyChooseUs />
       </main>
       
       <Footer />
