@@ -19,8 +19,8 @@ const Home = () => {
         </div>
         
         {/* These sections have overlapping elements and need to break out of container */}
-        <BottomSection />
         <BenefitsCurriculum />
+        <BottomSection />
         <WhyChooseUs />
       </main>
 
