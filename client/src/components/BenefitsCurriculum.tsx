@@ -1,12 +1,12 @@
 const BenefitsCurriculum = () => {
   return (
-    <section className="bg-muted py-12 mb-12">
+    <section className=" bg-muted py-12 mb-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="mb-4">
               <span className="red-line"></span>
-              <span className="font-bold">Benifits</span>
+              <span className="font-bold">Benefits</span>
             </h3>
             <p className="text-secondary text-sm mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in.

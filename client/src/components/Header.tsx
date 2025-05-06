@@ -11,7 +11,7 @@ const Header = () => {
 
             <h1 className="mb-6">
               <div>
-                <span className="red-line"></span>
+                <span className="white-line"></span>
                 <span className="text-white font-bold text-2xl md:text-4xl">
                   This{" "}
                 </span>
@@ -38,7 +38,7 @@ const Header = () => {
 
           <div className="w-full md:w-1/2">
             <div
-              className="bg-white h-12 w-full
+              className="bg-white h-10 w-full
               bg-[linear-gradient(90deg,var(--white)_80%,var(--red)_40%)]"
             ></div>
           </div>

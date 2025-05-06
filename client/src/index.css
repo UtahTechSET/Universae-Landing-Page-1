@@ -73,13 +73,22 @@
     vertical-align: middle;
   }
 
+  .white-line {
+    height: 1px;
+    background-color: hsl(var(--card));
+    width: 2rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+
   .big-red-line {
     height: 2px;
     background-color: hsl(var(--primary));
     width: 80%;
     display: inline-block;
     margin-right: 0.5rem;
-    margin-left: 1rem;
+    margin-left: 5rem;
     vertical-align: middle;
   }
 

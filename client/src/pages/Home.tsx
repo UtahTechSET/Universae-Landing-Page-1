@@ -15,7 +15,6 @@ const Home = () => {
       <main className="container mx-auto px-4 py-12">
         <HeroSection />
         <span className="big-red-line"></span>
-
         <SecondHeadline />
         <BottomSection />
         <BenefitsCurriculum />

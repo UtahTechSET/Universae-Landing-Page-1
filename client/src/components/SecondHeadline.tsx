@@ -10,26 +10,34 @@ const SecondHeadline = () => {
           <span className="font-bold text-primary">Headline</span>
         </h2>
       </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
+
+      <div className="grid ml-8 grid-cols-1 md:grid-cols-2">
+        <div className="w-3/4">
           <MediaBlock type="video" color="light" className="mb-4" />
-          
+
           <div>
-            <p className="mb-2"><span className="red-line"></span><span className="font-bold">Testimonials</span></p>
+            <p>
+              <span className="red-line"></span>
+              <span className="font-bold">Testimonials</span>
+            </p>
             <p className="text-secondary text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna.
             </p>
           </div>
         </div>
 
-        <div>
+        <div className="mt-8 w-3/4">
           <MediaBlock type="video" color="dark" className="mb-4" />
-          
+
           <div>
-            <p className="mb-2"><span className="red-line"></span><span className="font-bold">Gamification</span></p>
+            <p className="mb-2">
+              <span className="red-line"></span>
+              <span className="font-bold">Gamification</span>
+            </p>
             <p className="text-secondary text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna.
             </p>
           </div>
         </div>
