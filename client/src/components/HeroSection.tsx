@@ -2,7 +2,7 @@ import MediaBlock from "./MediaBlock";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col md:flex-row gap-8 mb-16 bg-gray-200 p-">
+    <section className="flex flex-row gap-8 mb-16 bg-gray-200 p-5">
       <div className="w-full md:w-2/5">
         <MediaBlock type="video" color="dark" />
       </div>

@@ -1,14 +1,8 @@
 const BenefitsCurriculum = () => {
   return (
-    <section className="bg-muted py-12 mb-12 relative">
-      {/* Red box for "Headline" - positioned to overlap */}
-      <div className="absolute -bottom-32 left-0 w-56 h-32 bg-primary p-4 flex flex-col justify-center z-10">
-        <h2 className="text-white text-xl font-bold">Headline</h2>
-        <p className="text-white text-xs">sub headline text</p>
-      </div>
-      
+    <section className="absolute top-20 left-7 h-[500px] bg-muted py-12 mb-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-muted p-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="mb-4">
               <span className="red-line"></span>

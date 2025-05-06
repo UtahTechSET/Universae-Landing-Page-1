@@ -5,6 +5,7 @@ import BottomSection from "@/components/BottomSection";
 import BenefitsCurriculum from "@/components/BenefitsCurriculum";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Footer from "@/components/Footer";
+import FacultyBios from "@/components/FacultyBios";
 
 const Home = () => {
   return (
@@ -12,16 +13,21 @@ const Home = () => {
       <Header />
 
       <main>
-        <div className="container mx-auto px-4 py-12">
-          <HeroSection />
-          <span className="big-red-line"></span>
-          <SecondHeadline />
-        </div>
-        
+        <HeroSection />
+        <span className="big-red-line"></span>
+        <SecondHeadline />
+
         {/* These sections have overlapping elements and need to break out of container */}
-        <BenefitsCurriculum />
-        <BottomSection />
-        <WhyChooseUs />
+        <div>        
+          <div className="relative pb-[1000px]">
+
+            <BottomSection />
+            <BenefitsCurriculum />
+            <FacultyBios />
+          </div>
+          <WhyChooseUs />
+        </div>
+          
       </main>
 
       <Footer />
