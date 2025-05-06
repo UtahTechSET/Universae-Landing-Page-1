@@ -19,7 +19,7 @@ const Home = () => {
 
         {/* These sections have overlapping elements and need to break out of container */}
         <div>        
-          <div className="relative pb-[1000px]">
+          <div className="relative pb-[700px]">
 
             <BottomSection />
             <BenefitsCurriculum />

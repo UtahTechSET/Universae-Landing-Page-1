@@ -19,23 +19,23 @@ const WhyChooseUs = () => {
             Feugiat in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
           </p>
           
-          <Button className="bg-primary text-white px-8 py-2">
+          <Button className="rounded-none text-background bg-primary px-8 py-2">
             Call to Action
           </Button>
-        </div>
+        </div> 
         
         <div className="flex items-center justify-center">
           <div className="relative w-64 h-64">
             {/* Red cross-like shape made from two overlapping rectangles */}
-            <div className="absolute top-0 right-0 w-full h-full bg-primary"></div>
+            <div className="absolute top-0 left-5 w-3/4 h-5/6 bg-primary"></div>
             
             {/* Gray square that appears in front */}
-            <div className="absolute -bottom-8 -left-8 w-40 h-40 bg-muted z-20"></div>
+            <div className="absolute top-12 -left-5 w-3/4 h-5/6 bg-muted z-20"></div>
           </div>
         </div>
       </div>
       
-      <div className="mt-16 border-t border-primary border-2 w-full max-w-md mx-auto"></div>
+      <div className="mt-16 border-t border-primary border-2 w-[80%] max-w-md mx-auto"></div>
     </section>
   );
 };
