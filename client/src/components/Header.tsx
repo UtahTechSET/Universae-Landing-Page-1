@@ -2,16 +2,16 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
-    <header className="bg-[linear-gradient(120deg,var(--red)_40%,var(--mid-gray)_40%,var(--mid-gray)_100%)]">
+    <header className="bg-hero-pattern bg-cover bg-no-repeat">
       <div className="container mx-auto px-4 py-12 md:py-24">
         <div className="flex flex-col md:flex-row justify-between items-start">
           <div className="mb-8 md:mb-0">
-            <div className="text-white text-3xl font-bold mb-2">UT</div>
-            <p className="text-white text-sm mb-6">Utah Tech University</p>
+            <div className="text-white text-3xl font-bold mb-2 ml-10">UT</div>
+            <p className="text-white text-sm mb-6 ml-10">Utah Tech University</p>
 
             <h1 className="mb-6">
-              <div>
-                <span className="white-line"></span>
+              <div className="inline-block">
+                <span className="white-line inline-block mb-5"></span>
                 <span className="text-white font-bold text-2xl md:text-4xl">
                   This{" "}
                 </span>
@@ -19,18 +19,20 @@ const Header = () => {
                   is an
                   <br />
                 </span>
-                <span className="text-white font-light text-2xl md:text-4xl">
-                  Exciting{" "}
-                </span>
-                <span className="text-white font-bold text-2xl md:text-4xl">
-                  Headline!
-                </span>
+                <div className="ml-10">
+                  <span className="text-white font-light text-2xl md:text-4xl">
+                    Exciting{" "}
+                  </span>
+                  <span className="text-white font-bold text-2xl md:text-4xl">
+                    Headline!
+                  </span>
+                </div>
               </div>
             </h1>
 
             <Button
               variant="outline"
-              className="border border-white text-black px-6 py-2 transition duration-300 hover:bg-white hover:text-primary"
+              className="border border-white text-white px-6 py-2 transition duration-300 hover:bg-white hover:text-primary ml-10"
             >
               APPLY NOW
             </Button>
