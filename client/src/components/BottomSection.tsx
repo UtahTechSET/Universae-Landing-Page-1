@@ -1,6 +1,6 @@
 const BottomSection = () => {
   return (
-    <section className="absolute bg-foreground py-6 px-4 w-[320px] h-[450px] ">
+    <section className="absolute bg-foreground py-6 px-4 w-[25em] h-[450px]">
       <h2 className="text-white">
         <span className="red-line"></span>
         <span className="font-light">Another </span>

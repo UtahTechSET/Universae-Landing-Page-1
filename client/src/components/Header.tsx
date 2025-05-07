@@ -1,13 +1,16 @@
 import { Button } from "@/components/ui/button";
 
+// (bg-[linear-gradient(120deg,var(--red)_40%,var(--mid-gray)_40%,var(--mid-gray)_100%)]
+// bg-[url(../../public/images/hero_bg.png)]
+
 const Header = () => {
   return (
-    <header className="bg-hero-pattern bg-cover bg-no-repeat">
-      <div className="container mx-auto px-4 py-12 md:py-24">
+    <header className="bg-[linear-gradient(120deg,var(--red)_22em,var(--mid-gray)_22em,var(--mid-gray)_100%)] mr-10">
+      <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row justify-between items-start">
           <div className="mb-8 md:mb-0">
-            <div className="text-white text-3xl font-bold mb-2 ml-10">UT</div>
-            <p className="text-white text-sm mb-6 ml-10">Utah Tech University</p>
+            <div className="text-white text-5xl font-bold -mt-5 mb-10 ml-10">UT</div>
+            <p className="text-white text-sm mb-3 ml-10">Utah Tech Universae</p>
 
             <h1 className="mb-6">
               <div className="inline-block">
@@ -32,7 +35,7 @@ const Header = () => {
 
             <Button
               variant="outline"
-              className="border border-white text-white px-6 py-2 transition duration-300 hover:bg-white hover:text-primary ml-10"
+              className="border border-white text-black px-6 py-2 transition duration-300 hover:bg-white hover:text-primary ml-10"
             >
               APPLY NOW
             </Button>
