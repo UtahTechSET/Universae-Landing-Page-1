@@ -2,12 +2,13 @@ import MediaBlock from "./MediaBlock";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-row gap-8 mb-16 bg-gray-200 px-8 py-12">
-      <div className="w-full md:w-2/5 flex flex-row justify-center items-center">
+    <section className=" sm:flex sm:flex-row sm:gap-8 sm:mb-16 bg-gray-200 sm:px-8 sm:py-12
+      py-5">
+      <div className="w-full mb-5 md:w-2/5 flex flex-row justify-center items-center">
         <MediaBlock type="video" color="dark" className=" h-[15em]"/>
       </div>
 
-      <div className="w-full md:w-3/5">
+      <div className="w-full md:w-3/5 mx-5">
         <h2 className="mb-4">
           <span className="red-line"></span>
           <span className="text-foreground font-bold text-xl md:text-2xl">

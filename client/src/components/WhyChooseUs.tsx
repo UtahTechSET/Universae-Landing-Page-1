@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 
 const WhyChooseUs = () => {
   return (
-    <section className="relative mb-16 container mx-auto px-4">
-      <div className="absolute right-10 big-red-line w-[15em] h-[3px]"></div>
+    <section className="sm:relative mb-16 container mx-auto px-4">
+      <div className="sm:absolute right-10 big-red-line w-[15em] h-[3px]"></div>
 
       <div className="mt-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
             </Button>
           </div> 
           
-          <div className="flex items-center justify-center">
+          <div className="hidden md:visible  md:flex  md:items-center  md:justify-center">
             <div className="relative w-64 h-64">
               {/* Red cross-like shape made from two overlapping rectangles */}
               <div className="absolute top-0 left-5 w-3/4 h-5/6 bg-primary"></div>

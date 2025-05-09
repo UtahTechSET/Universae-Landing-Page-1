@@ -2,7 +2,7 @@ import MediaBlock from "./MediaBlock";
 
 const SecondHeadline = () => {
   return (
-    <section className="-mb-2">
+    <section className="md:-mb-2 mt-6 md:mt-0">
       <div className="text-center mb-4">
         <h3 className="text-foreground font-light text-lg">Smaller headline</h3>
         <h2 className="text-foreground text-2xl md:text-3xl">
@@ -11,9 +11,10 @@ const SecondHeadline = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 h-[25em]">
-        <div className="relative"> 
-          <div className="w-3/4 absolute -right-[3em]">
+      <div className="md:grid md:grid-cols-2 md:h-[25em]">
+        <div className="md:relative
+          flex items-center justify-center  mb-5"> 
+          <div className="w-3/4 md:absolute  md:-right-[3em]">
             <MediaBlock type="video" color="light" className="mb-4 w-[15em] h-2/5" />
   
             <div className="w-5/6">
@@ -25,12 +26,13 @@ const SecondHeadline = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam
                 nonummy nibh euismod tincidunt ut laoreet dolore magna.
               </p>
-            </div>
+            </div>          
           </div>
         </div>
 
-        <div className="relative">
-          <div className="absolute top-[5em] w-3/4 left-[1em]">
+        <div className="md:relative
+          flex items-center justify-center mb-5">
+          <div className="md:absolute md:top-[5em] w-3/4 md:left-[1em]">
             <MediaBlock type="video" color="dark" className="mb-4 w-[15em] h-2/5" />
   
             <div className="w-5/6">
@@ -44,7 +46,7 @@ const SecondHeadline = () => {
               </p>
             </div>
           </div>
-          </div>
+        </div>
       </div>
     </section>
   );

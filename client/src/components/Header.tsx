@@ -5,7 +5,10 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
-    <header className="bg-[linear-gradient(120deg,var(--red)_26em,var(--mid-gray)_26em,var(--mid-gray)_100%)] mr-10">
+    <header className="sm:mr-10 
+      md:bg-[linear-gradient(120deg,var(--red)_26em,var(--mid-gray)_26em,var(--mid-gray)_100%)] 
+      sm:bg-[linear-gradient(120deg,var(--red)_20em,var(--mid-gray)_20em,var(--mid-gray)_100%)]
+      bg-[linear-gradient(120deg,var(--red)_18em,var(--mid-gray)_18em,var(--mid-gray)_100%)]">
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row justify-between items-start">
           <div className="mb-8 md:mb-0">

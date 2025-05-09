@@ -1,8 +1,9 @@
 const BenefitsCurriculum = () => {
   return (
-    <section className="absolute top-20 left-7 h-[500px] bg-muted py-12 mb-12">
+    <section className="sm:absolute sm:mb-12 sm:h-[500px] sm:top-20 sm:left-7 sm:py-12
+      bg-muted py-6">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div>
             <h3 className="mb-4">
               <span className="red-line"></span>

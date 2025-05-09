@@ -1,33 +1,33 @@
 const FacultyBios = () => {
   return (
-    <section className="absolute top-[430px]">
-      <div className="grid grid-cols-12 gap-4">
-        <div className="col-span-12 md:col-span-4 bg-primary p-4 pt-[80px] pl-[7em]">
+    <section className="sm:absolute sm:top-[28em]">
+      <div className="sm:grid sm:grid-cols-12 sm:gap-4">
+        <div className="sm:col-span-4sm:pt-[80px] sm:pl-[7em]
+          col-span-12 bg-primary p-4 ">
           <h3 className="text-white text-2xl font-bold mb-1">Headline</h3>
           <p className="text-white text-sm mb-4">sub headline text</p>
         </div>
       </div>
 
-      <div className="flex flexbox bg-muted-foreground p-5 -mt-[84px]">
-        <div className="mt-12 pl-[5.7em] pr-[2em] flex items-center">
+      <div className="sm:flex sm:flexbox sm:-mt-[84px]
+        bg-muted-foreground p-5">
+        <div className="sm:mt-12 pl-[5.7em] flex items-center sm:w-1/3 mb-7">
           <div>
             <span className="block red-line mt-3 h-[4px]"></span>
             <span className="font-bold">Faculty Bio's</span>
-            <p className="text-secondary text-sm">More details or text for this section</p>
+            <p className="text-secondary text-sm w-3/4">More details or text for this section</p>
           </div>
         </div>
         
-        <div className="relative grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="sm:relative sm:grid sm:grid-cols-1 sm:grid-cols-3 sm:gap-4">
           {[1, 2, 3].map((item) => (
             <div key={item} className="relative flex flex-col items-center">
-              <div className="absolute top-5 left-4 bg-secondary w-10 h-6 mb-4">
+              <div className="sm:absolute top-5 left-4 bg-secondary w-10 h-6 mb-4">
                 <span className="text-xs text-background pl-1">about</span>
               </div>
               <div className="bg-muted w-36 h-24 flex items-center justify-center mb-2">
-                {/* <span className="text-xs text-secondary">about</span> */}
               </div>
               <p className="font-medium text-center">Name here</p>
-              {/* <div className="h-1 w-12 bg-primary mt-2"></div> */}
             </div>
           ))}
         </div>
