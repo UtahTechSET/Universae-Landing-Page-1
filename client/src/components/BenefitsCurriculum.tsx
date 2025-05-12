@@ -1,33 +1,51 @@
 const BenefitsCurriculum = () => {
   return (
-    <section className="sm:absolute sm:mb-12 sm:h-[500px] sm:top-20 sm:left-7 sm:py-12
+    <section className="sm:absolute sm:h-[24em] sm:top-20 sm:left-7 sm:w-[95%]
       bg-muted py-6">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <div>
-            <h3 className="mb-4">
-              <span className="red-line"></span>
-              <span className="font-bold">Benefits</span>
-            </h3>
-            <p className="text-secondary text-sm mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in.
-            </p>
-            <p className="text-secondary text-sm">
-              Feugiat in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div className="flex flex-col md:flex-row justify-between items-start">
+            <span className="red-line h-[2px] bg-black w-[8em] mt-[16px]"></span>
+            <div>
+              <h3 className="mb-3">
+                <span className="text-2xl font-bold">Benefits</span>
+              </h3>
+              <p className="text-secondary text-xs mb-4">
+                Utah Tech University offers a hands-on, career-focused
+                education through its polytechnic approach-emphasizing
+                real-world projects, industry collaboration, and active
+                learning.
+              </p>
+              <p className="text-secondary text-xs">
+                With small class sizes, affordable tuition, and a beautiful St.
+                George location, it's an ideal place to launch your tech
+                career. Complete your degree in just 16 months through
+                flexible HyFlex learning-no coding experience required.
+              </p>
+            </div>
           </div>
+
           
-          <div>
-            <h3 className="mb-4">
-              <span className="red-line"></span>
-              <span className="font-bold">Curriculum</span>
-            </h3>
-            <p className="text-secondary text-sm mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in.
-            </p>
-            <p className="text-secondary text-sm">
-              Feugiat in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            </p>
+          <div className="flex flex-col md:flex-row ">
+            <span className="red-line h-[2px] bg-black w-[2em] mt-[16px]"></span>
+            <div>
+              <h3 className="mb-3">
+                <span className="text-2xl font-bold">Curriculum</span>
+              </h3>
+              <ul className="text-secondary text-xs mb-3 list-disc ml-5">
+                <li> Fundamentals of App Programming (3 credits)</li>
+                <li> ntroduction to UI/UX (3 credits)</li>
+                <li> Multitier App Development I (3 credits)</li>
+                <li> Multitier App Development II (3 credits)</li>
+                <li> Mobile App Development (3 credits)</li>
+                <li> Advanced Topics in App Development (3 credits)</li>
+                <li> Software Development Practices (3 credits)</li>
+                <li> Software Quality and Testing (3 credits)</li>
+                <li> Tech Entrepreneurship (3 credits)</li>
+                <li> Graduate Capstone (3 credits)</li>
+              </ul>
+            </div>
+            
           </div>
         </div>
       </div>

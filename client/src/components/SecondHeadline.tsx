@@ -4,10 +4,14 @@ const SecondHeadline = () => {
   return (
     <section className="md:-mb-2 mt-6 md:mt-0">
       <div className="text-center mb-4">
-        <h3 className="text-foreground font-light text-lg">Smaller headline</h3>
+        <h3 className="text-foreground font-light text-lg">
+          "This is sommething I'll
+          <br />
+          use for the rest of my life"
+        </h3>
         <h2 className="text-foreground text-2xl md:text-3xl">
-          <span className="font-bold">Second </span>
-          <span className="font-bold text-primary">Headline</span>
+          <span className="font-bold">Student </span>
+          <span className="font-bold text-primary">Stories</span>
         </h2>
       </div>
 
@@ -19,30 +23,32 @@ const SecondHeadline = () => {
   
             <div className="w-5/6">
               <p>
-                <span className="red-line"></span>
+                <span className="red-line w-[1em] h-[2px]"></span>
                 <span className="font-bold">Testimonials</span>
               </p>
-              <p className="text-secondary text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam
-                nonummy nibh euismod tincidunt ut laoreet dolore magna.
+              <p className="text-secondary text-xs ml-2 w-5/6">
+                Paula, an international student from Spain,
+                reflects on the real-world learning she gained
+                in the Computer Science program.
               </p>
             </div>          
           </div>
         </div>
 
         <div className="md:relative
-          flex items-center justify-center mb-5">
+          flex items-center justify-center mb-5 sm:ml-5">
           <div className="md:absolute md:top-[5em] w-3/4 md:left-[1em]">
             <MediaBlock type="video" color="dark" className="mb-4 w-[15em] h-2/5" />
   
             <div className="w-5/6">
-              <p className="mb-2">
-                <span className="red-line"></span>
-                <span className="font-bold">Gamification</span>
-              </p>
-              <p className="text-secondary text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam
-                nonummy nibh euismod tincidunt ut laoreet dolore magna.
+              <h2 className="mb-2">
+                <span className="red-line w-[1em] h-[2px]"></span>
+                <span className="font-bold">Can You Solve It?</span>
+              </h2>
+              <p className="text-secondary text-xs ml-2 w-5/6">
+                Test your problem-solving skills with a
+                challenge built by real MSD students. If this
+                gets your gears turning, you’re in the right
               </p>
             </div>
           </div>
