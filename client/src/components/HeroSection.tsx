@@ -8,7 +8,7 @@ const HeroSection = () => {
         <MediaBlock type="video" color="dark" className=" h-[15em]"/>
       </div>
 
-      <div className="w-full md:w-3/5 mx-5">
+      <div className="mx-5">
         <h2 className="mb-4">
           <span className="red-line"></span>
           <span className="text-foreground font-bold text-xl md:text-2xl">
