@@ -11,7 +11,7 @@ const FacultyBios = () => {
             <br />
             Faculty
           </h3>
-          <p className="text-white text-sm mb-4">Department of Computing</p>
+          <p className="text-white text-sm pb-2">Department of Computing</p>
         </div>
       </div>
 

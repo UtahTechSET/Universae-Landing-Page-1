@@ -15,9 +15,8 @@ const SecondHeadline = () => {
         </h2>
       </div>
 
-      <div className="md:grid md:grid-cols-2 md:h-[25em]">
-        <div className="md:relative
-          flex items-center justify-center  mb-5"> 
+      <div className="md:grid md:grid-cols-2 md:h-[25em] ml-[20%] sm:ml-[30%] md:ml-0">
+        <div className="md:relative mb-5"> 
           <div className="w-3/4 md:absolute  md:-right-[3em]">
             <MediaBlock type="video" color="light" className="mb-4 w-[15em] h-2/5" />
   
@@ -35,8 +34,7 @@ const SecondHeadline = () => {
           </div>
         </div>
 
-        <div className="md:relative
-          flex items-center justify-center mb-5 sm:ml-5">
+        <div className="md:relative mb-5 md:ml-5">
           <div className="md:absolute md:top-[5em] w-3/4 md:left-[1em]">
             <MediaBlock type="video" color="dark" className="mb-4 w-[15em] h-2/5" />
   

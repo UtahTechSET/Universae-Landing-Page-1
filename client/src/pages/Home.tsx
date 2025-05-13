@@ -9,7 +9,7 @@ import FacultyBios from "@/components/FacultyBios";
 
 const Home = () => {
   return (
-    <div className="font-sans bg-white text-foreground">
+    <div className="font-sans bg-white text-foreground lg:w-[1050px] lg:mx-auto">
       <div className="h-5 bg-[linear-gradient(120deg,var(--red)_18.6em,var(--white)_15em,var(--white)_100%)]
         sm:bg-[linear-gradient(120deg,var(--red)_20.6em,var(--white)_14em,var(--white)_100%)]
         md:bg-[linear-gradient(120deg,var(--red)_26.7em,var(--white)_26.7em,var(--white)_100%)]
