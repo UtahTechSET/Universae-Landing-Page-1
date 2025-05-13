@@ -1,9 +1,9 @@
 const FacultyBios = () => {
   return (
-    <section className="sm:absolute sm:top-[22em]">
-      <div className="sm:grid sm:grid-cols-12 sm:gap-4">
+    <section className="md:absolute md:top-[22em] mt-15">
+      <div className="md:grid md:grid-cols-12 md:gap-4">
         <div
-          className="sm:col-span-4 sm:pt-[60px] sm:pl-[3em]
+          className="md:col-span-4 md:pt-[60px] md:pl-[3em]
           col-span-12 bg-primary px-4 ">
           <h3 className="text-white font-light text-2xl mb-1">
             Meet our{" "} 
@@ -16,9 +16,9 @@ const FacultyBios = () => {
       </div>
 
       <div
-        className="sm:flex sm:flexbox sm:-mt-[70px]
-        bg-muted-foreground pt-5 px-5">
-        <div className="sm:mt-12 pl-[1em] flex items-center sm:w-1/3 mb-7">
+        className="md:flex md:flexbox md:-mt-[70px]
+        bg-muted-foreground pb-5 sm:pt-5 sm:px-5 sm:pb-0">
+        <div className="md:mt-12 pl-[1em] flex items-center md:w-1/3 mb-7">
           <div>
             <span className="block red-line mt-3 h-[4px]"></span>
             <span className="font-bold">Meet Your Instructors</span>
@@ -29,16 +29,20 @@ const FacultyBios = () => {
           </div>
         </div>
 
-        <div className="sm:relative sm:grid sm:grid-cols-3 sm:gap-4">
-          {["Joe Francom, PH.D", "Jeff Compas, MSCS", "Lora Klein"].map((item) => (
-            <div key={item} className="relative flex flex-col items-center">
-              <button className="absolute top-5 sm:left-4 h-6 mb-4 px-4 
+        <div className="sm:relative sm:grid sm:grid-cols-3 sm:gap-[2.5em]">
+          {[
+            "Joe Francom, PH.D", 
+            "Jeff Compas, MSCS", 
+            "Lora Klein"
+           ].map((name) => (
+            <div key={name} className="relative flex flex-col items-center">
+              <button className="absolute top-5 md:left-4 h-6 mb-4 px-4 
                 bg-transparent text-xs text-[--red] border-solid border-[--red] border-2
                 hover:bg-[--red] hover:text-background">
                 about
               </button>
               <div className="bg-muted w-36 h-24 flex items-center justify-center mb-2"></div>
-              <p className="font-sm text-center">{item}</p>
+              <p className="font-sm text-center">{name}</p>
             </div>
           ))}
         </div>

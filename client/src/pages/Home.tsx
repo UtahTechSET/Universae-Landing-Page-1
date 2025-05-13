@@ -25,7 +25,7 @@ const Home = () => {
 
 
         <div>        
-          <div className="sm:relative sm:pb-[700px]">
+          <div className="md:relative md:pb-[40em]">
 
             <BottomSection />
             <BenefitsCurriculum />
