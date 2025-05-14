@@ -49,6 +49,8 @@
     --sidebar-border: 0 0% 20%;
     --sidebar-ring: 0 0% 100%;
     --red: #aa3532;
+    --red-rgba: rgba(170, 53, 50, 0.8)
+    --transparent-thing: rgba(0, 0, 0, 0);
     --mid-gray: #666666;
     --white: #fff;
 

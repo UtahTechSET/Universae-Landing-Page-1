@@ -5,6 +5,9 @@ export default {
   content: ["./client/index.html", "./client/src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "header-gradient-main": "linear-gradient(120deg, var(--tw-gradient-stops))",
+      },
       fontFamily: {
         'choplin-light': ['choplin-light', 'serif'],
         'choplin-medium': ['choplin-medium', 'serif']
