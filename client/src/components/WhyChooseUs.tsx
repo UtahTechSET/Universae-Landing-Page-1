@@ -7,47 +7,46 @@ const WhyChooseUs = () => {
 
       <div className="mt-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
-            <h3 className="mb-4">
-              <span className="red-line"></span>
-              <span className="font-choplin-light">Why </span>
-              <span className="font-choplin-medium">Choose Us?</span>
-            </h3>
-            
-            <p className="text-secondary text-xs mb-4">
-              Learn by building real projects with real code and tools — no
-              fluff, just hands-on experience. You'll gain in-demand skills
-              in full-stack development, cloud, and agile, while working
-              alongside UX Design students for real-world collaboration.
-            </p>
-            
-            <p className="text-secondary text-xs mb-8">
-              Choose to learn on campus or online with our flexible
-              HyFlex format, and finish your degree in just 16 months (30
-              credits). Courses are taught by industry pros, tuition is
-              affordable, and scholarships are available. No coding
-              experience? No problem.
-            </p>
-            
-            <Button className="rounded-none text-background bg-primary px-8 py-2">
-              Start Your Journey
-            </Button>
-          </div> 
-          
+          <div className="flex flex-col md:flex-row justify-between items-start">
+            <span className="red-line w-[10em] mt-[1.2em] h-[2.5px]"></span>
+            <div>
+              <h3 className="mb-4 text-4xl">
+                <span className="font-choplin-light">Why </span>
+                <span className="font-choplin-medium">Choose Us?</span>
+              </h3>
+  
+              <p className="text-secondary text-xs mb-4">
+                Learn by building real projects with real code and tools — no
+                fluff, just hands-on experience. You'll gain in-demand skills in
+                full-stack development, cloud, and agile, while working alongside
+                UX Design students for real-world collaboration.
+              </p>
+  
+              <p className="text-secondary text-xs mb-8">
+                Choose to learn on campus or online with our flexible HyFlex
+                format, and finish your degree in just 16 months (30 credits).
+                Courses are taught by industry pros, tuition is affordable, and
+                scholarships are available. No coding experience? No problem.
+              </p>
+  
+              <Button className="rounded-none text-background bg-primary font-light px-8 py-2">
+                Start Your Journey
+              </Button>
+            </div>
+          </div>
+
           <div className="hidden md:visible  md:flex  md:items-center  md:justify-center">
             <div className="relative w-64 h-64">
               {/* Red cross-like shape made from two overlapping rectangles */}
               <div className="absolute top-0 left-5 w-3/4 h-5/6 bg-primary"></div>
-              
+
               {/* Gray square that appears in front */}
               <div className="absolute top-12 -left-5 w-3/4 h-5/6 bg-muted z-20"></div>
             </div>
           </div>
           <div className="big-red-line ml-3 mt-8 w-[90%] h-[3px]"></div>
-
         </div>
       </div>
-      
     </section>
   );
 };
