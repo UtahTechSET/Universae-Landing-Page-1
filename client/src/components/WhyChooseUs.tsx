@@ -10,8 +10,8 @@ const WhyChooseUs = () => {
           <div>
             <h3 className="mb-4">
               <span className="red-line"></span>
-              <span className="font-light">Why </span>
-              <span className="font-bold">Choose Us?</span>
+              <span className="font-choplin-light">Why </span>
+              <span className="font-choplin-medium">Choose Us?</span>
             </h3>
             
             <p className="text-secondary text-xs mb-4">

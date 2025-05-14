@@ -8,7 +8,7 @@ const BenefitsCurriculum = () => {
             <span className="red-line h-[2px] bg-black w-[8em] mt-[16px]"></span>
             <div>
               <h3 className="mb-3">
-                <span className="text-2xl font-bold">Benefits</span>
+                <span className="text-2xl font-choplin-medium">Benefits</span>
               </h3>
               <p className="text-secondary text-xs mb-4">
                 Utah Tech University offers a hands-on, career-focused
@@ -30,7 +30,7 @@ const BenefitsCurriculum = () => {
             <span className="red-line h-[2px] bg-black w-[8em] sm:w-[2em] mt-[16px]"></span>
             <div>
               <h3 className="mb-3">
-                <span className="text-2xl font-bold">Curriculum</span>
+                <span className="text-2xl font-choplin-medium">Curriculum</span>
               </h3>
               <ul className="text-secondary text-xs mb-3 list-disc ml-5">
                 <li> Fundamentals of App Programming (3 credits)</li>

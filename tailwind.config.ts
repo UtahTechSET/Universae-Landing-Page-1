@@ -5,8 +5,9 @@ export default {
   content: ["./client/index.html", "./client/src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      backgroundImage: {
-        'hero-pattern': "url('/images/hero_bg.png')",
+      fontFamily: {
+        'choplin-light': ['choplin-light', 'serif'],
+        'choplin-medium': ['choplin-medium', 'serif']
       },
       borderRadius: {
         lg: "var(--radius)",

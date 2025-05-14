@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import whiteLogo from "../../../public/images/whiteUTlogoAsset1.png"
 
 // (bg-[linear-gradient(120deg,var(--red)_40%,var(--mid-gray)_40%,var(--mid-gray)_100%)]
 // bg-[url(../../public/images/hero_bg.png)]
@@ -14,29 +15,30 @@ const Header = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row justify-between items-start">
           <div className="mb-8 md:mb-0">
-            <div className="text-white text-5xl font-bold -mt-5 mb-10 ml-10">
+            {/* <div className="text-white text-5xl font-bold -mt-5 mb-10 ml-10">
               UT
-            </div>
+            </div> */}
+            <img src={whiteLogo} alt="UT Logo" className="h-12 mb-10 ml-10" />
             <p className="text-white text-xs mb-3 ml-10">Master's of Software Development at Utah Tech</p>
 
       
             <div className="inline-block mb-6">
               <span className="white-line inline-block mb-5"></span>
-              <span className="text-white font-light text-2xl md:text-4xl">
+              <span className="text-white font-choplin-light text-2xl md:text-4xl">
                 From{" "}
               </span>
-              <span className="text-white font-bold text-2xl md:text-4xl">
+              <span className="text-white font-choplin-medium text-2xl md:text-4xl">
                 Zero{" "}
               </span>
-              <span className="text-white font-light text-2xl md:text-4xl">
+              <span className="text-white font-choplin-light text-2xl md:text-4xl">
                 to Software
               </span>
               <br />
               <div className="ml-10">
-                <span className="text-white font-bold text-2xl md:text-4xl">
+                <span className="text-white font-choplin-medium text-2xl md:text-4xl">
                   Hero:{" "}
                 </span>
-                <span className="text-white font-light text-2xl md:text-4xl">
+                <span className="text-white font-choplin-light text-2xl md:text-4xl">
                   Building Skills, 
                   <br />
                   Confidence, and Code
@@ -46,7 +48,8 @@ const Header = () => {
 
             <Button
               variant="outline"
-              className="border bg-[--red] rounded-none border-white text-white px-6 py-2 transition duration-300 hover:bg-white hover:text-primary ml-10"
+              className="border bg-[--red] rounded-none border-white font-light text-white px-6 py-2 
+              transition duration-300 hover:bg-white hover:text-primary ml-10"
             >
               Apply Now
             </Button>

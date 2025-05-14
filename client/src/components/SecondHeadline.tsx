@@ -4,14 +4,14 @@ const SecondHeadline = () => {
   return (
     <section className="md:-mb-2 mt-6 md:mt-0">
       <div className="text-center mb-4">
-        <h3 className="text-foreground font-light text-lg">
+        <h3 className="text-foreground font-choplin-light text-lg">
           "This is sommething I'll
           <br />
           use for the rest of my life"
         </h3>
         <h2 className="text-foreground text-2xl md:text-3xl">
-          <span className="font-bold">Student </span>
-          <span className="font-bold text-primary">Stories</span>
+          <span className="font-choplin-medium">Student </span>
+          <span className="font-choplin-medium text-primary">Stories</span>
         </h2>
       </div>
 

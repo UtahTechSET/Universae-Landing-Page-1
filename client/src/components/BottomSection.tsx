@@ -4,10 +4,10 @@ const BottomSection = () => {
       bg-foreground p-5 w-5/6 sm:w-3/4">
       <h2 className="text-white text-xl">
         <span className="red-line"></span>
-        <span className="font-light">Why </span>
-        <span className="font-bold">MSD{" "}</span>
-        <span className="font-light">at </span>
-        <span className="font-bold">Utah Tech?</span>
+        <span className="font-choplin-light">Why </span>
+        <span className="font-choplin-medium">MSD{" "}</span>
+        <span className="font-choplin-light">at </span>
+        <span className="font-choplin-medium">Utah Tech?</span>
       </h2>
     </section>
   );
