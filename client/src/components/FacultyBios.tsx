@@ -41,9 +41,14 @@ const FacultyBios = () => {
       setSelectedFaculty(prof);
     }
   };
+
+
+  // ====================== HTML SECTION ===================================
   
   return (
-    <section className="md:relative md:top-[22em] mt-15">
+
+    
+    <section className="md:absolute md:top-[22em] mt-15 " >
       <div className="md:grid md:grid-cols-12 md:gap-4">
         <div
           className="md:col-span-4 md:pt-[60px] md:pl-[3em]
@@ -93,7 +98,7 @@ const FacultyBios = () => {
         </div>
       </div>
 
-      {/* Faculty Bio Details Panel - Hidden by default, with proper spacing */}
+      {/* Faculty Bio Details Panel - Hidden by default */}
       <div 
         className={`transition-all duration-300 overflow-hidden bg-white 
         border-t-4 border-primary mx-4 sm:mx-8 shadow-md relative z-10
@@ -132,11 +137,7 @@ const FacultyBios = () => {
           </div>
         )}
       </div>
-      
-      {/* Add spacing when bio details are shown to prevent overlapping with content below */}
-      {selectedFaculty && (
-        <div className="md:h-[200px]"></div>
-      )}
+
     </section>
   );
 };

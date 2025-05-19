@@ -27,6 +27,7 @@ const Home = () => {
           <BenefitsCurriculum />
           <FacultyBios />
         </div>
+        
         <WhyChooseUs />
           
       </main>

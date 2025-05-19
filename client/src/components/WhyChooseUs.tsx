@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
               <div className="absolute top-0 left-5 w-3/4 h-5/6 bg-primary"></div>
 
               {/* Gray square that appears in front */}
-              <div className="absolute top-12 -left-5 w-3/4 h-5/6 bg-muted z-20"></div>
+              <div className="absolute top-12 -left-5 w-3/4 h-5/6 bg-muted"></div>
             </div>
           </div>
           <div className="big-red-line ml-3 mt-8 w-[90%] h-[3px]"></div>
