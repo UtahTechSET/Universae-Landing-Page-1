@@ -1,4 +1,11 @@
 const FacultyBios = () => {
+  
+  const showFacultyAbout = (prof: String) => {
+    console.log('Button clicked!', prof);
+  };
+
+  
+  
   return (
     <section className="md:absolute md:top-[22em] mt-15">
       <div className="md:grid md:grid-cols-12 md:gap-4">
@@ -36,7 +43,7 @@ const FacultyBios = () => {
             "Lora Klein"
            ].map((name) => (
             <div key={name} className="relative flex flex-col items-center">
-              <button className="absolute top-5 md:left-4 h-6 mb-4 px-4 
+              <button onClick={() => showFacultyAbout(name)} className="absolute top-5 md:left-4 h-6 mb-4 px-4 
                 bg-transparent text-xs text-[--red] border-solid border-[--red] border-2
                 hover:bg-[--red] hover:text-background transition duration-300">
                 about
@@ -46,6 +53,10 @@ const FacultyBios = () => {
             </div>
           ))}
         </div>
+
+      </div>
+      <div className="h-15 bg-red-500">
+        <h1>Fac name</h1>
       </div>
     </section>
   );

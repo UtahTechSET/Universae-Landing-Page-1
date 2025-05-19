@@ -2,13 +2,22 @@ import { Button } from "@/components/ui/button";
 import whiteLogo from "../../../public/images/whiteUTlogoAsset1.png";
 import headerImage from "../../../public/images/header_hero.jpg";
 
-// (bg-[linear-gradient(120deg,var(--red)_40%,var(--mid-gray)_40%,var(--mid-gray)_100%)]
-// bg-[url(../../public/images/hero_bg.png)]
-// md:bg-[linear-gradient(120deg,var(--red)_26em,var(--mid-gray)_26em,var(--mid-gray)_100%)]
-// sm:bg-[linear-gradient(120deg,var(--red)_20em,var(--mid-gray)_20em,var(--mid-gray)_100%)]
-// bg-[linear-gradient(120deg,var(--red)_18em,var(--mid-gray)_18em,var(--mid-gray)_100%)]"
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+
 
 const Header = () => {
+
+  useGSAP(() => {
+    gsap.to('#zero-to-hero', {
+      y: 0,
+      ease: 'power1.inOut',
+      opacity: 1,
+      duration: 2
+
+    })
+  }, []);
+  
   return (
     <header
       style={{ backgroundImage: `url(${headerImage})` }}
@@ -53,7 +62,7 @@ const Header = () => {
               Master's of Software Development at Utah Tech
             </p>
 
-            <div className="inline-block mb-6">
+            <div id="zero-to-hero" className="inline-block mb-6 opacity-0 translate-y-10">
               <span className="white-line inline-block mb-5"></span>
               <span className="text-white font-choplin-light text-2xl md:text-4xl">
                 From{" "}

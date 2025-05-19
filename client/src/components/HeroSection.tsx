@@ -1,4 +1,6 @@
+
 import heroImage from "../../../public/images/hero1.jpg";
+
 
 const HeroSection = () => {
   return (
