@@ -37,11 +37,12 @@ const WhyChooseUs = () => {
 
           <div className="hidden md:visible  md:flex  md:items-center  md:justify-center">
             <div className="relative w-64 h-64">
-              {/* Red cross-like shape made from two overlapping rectangles */}
-              <div className="absolute top-0 left-5 w-3/4 h-5/6 bg-primary"></div>
+              <div className="absolute top-0 left-5 w-3/4 h-[20.02em] bg-primary"></div>
 
-              {/* Gray square that appears in front */}
-              <div className="absolute top-12 -left-5 w-3/4 h-5/6 bg-muted"></div>
+              <div className="absolute top-6 -left-5 w-5/6 h-[20.02em] bg-muted">
+                <iframe src="https://drive.google.com/file/d/1pvMTCPgRobm_YQyhhTb4BI0mAfnkiuLS/preview" 
+                  allow="autoplay" className="w-full h-full"></iframe>
+              </div>
             </div>
           </div>
           <div className="big-red-line ml-3 mt-8 w-[90%] h-[3px]"></div>
