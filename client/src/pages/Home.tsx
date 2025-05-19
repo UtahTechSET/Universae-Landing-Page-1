@@ -21,15 +21,13 @@ const Home = () => {
         <SecondHeadline />
 
 
-        <div>        
-          <div className="md:relative md:pb-[40em]">
+        <div className="md:relative md:pb-[40em]">
 
-            <BottomSection />
-            <BenefitsCurriculum />
-            <FacultyBios />
-          </div>
-          <WhyChooseUs />
+          <BottomSection />
+          <BenefitsCurriculum />
+          <FacultyBios />
         </div>
+        <WhyChooseUs />
           
       </main>
 

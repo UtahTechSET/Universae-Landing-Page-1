@@ -43,7 +43,7 @@ const FacultyBios = () => {
   };
   
   return (
-    <section className="md:absolute md:top-[22em] mt-15">
+    <section className="md:relative md:top-[22em] mt-15">
       <div className="md:grid md:grid-cols-12 md:gap-4">
         <div
           className="md:col-span-4 md:pt-[60px] md:pl-[3em]
@@ -93,10 +93,11 @@ const FacultyBios = () => {
         </div>
       </div>
 
-      {/* Faculty Bio Details Panel - Hidden by default */}
+      {/* Faculty Bio Details Panel - Hidden by default, with proper spacing */}
       <div 
-        className={`transition-all duration-300 overflow-hidden bg-white border-t-4 border-primary mx-4 sm:mx-8 shadow-md
-          ${selectedFaculty ? 'max-h-[500px] opacity-100 py-6 px-8 mb-8' : 'max-h-0 opacity-0 py-0 px-0'}`}
+        className={`transition-all duration-300 overflow-hidden bg-white 
+        border-t-4 border-primary mx-4 sm:mx-8 shadow-md relative z-10
+        ${selectedFaculty ? 'opacity-100 py-6 px-8 mb-8' : 'opacity-0 py-0 px-0 h-0'}`}
       >
         {selectedFaculty && (
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -122,7 +123,8 @@ const FacultyBios = () => {
               
               <button 
                 onClick={() => setSelectedFaculty(null)}
-                className="mt-6 text-xs text-primary border border-primary px-3 py-1 hover:bg-primary hover:text-white transition-colors"
+                className="mt-6 text-xs text-primary border border-primary px-3 py-1 
+                hover:bg-primary hover:text-white transition-colors"
               >
                 Close
               </button>
@@ -130,6 +132,11 @@ const FacultyBios = () => {
           </div>
         )}
       </div>
+      
+      {/* Add spacing when bio details are shown to prevent overlapping with content below */}
+      {selectedFaculty && (
+        <div className="md:h-[200px]"></div>
+      )}
     </section>
   );
 };
