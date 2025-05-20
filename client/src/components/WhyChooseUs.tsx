@@ -29,12 +29,16 @@ const WhyChooseUs = () => {
                 scholarships are available. No coding experience? No problem.
               </p>
   
-              <Button className="rounded-none text-background bg-primary font-light px-8 py-2">
+              <Button className="rounded-none text-background bg-primary font-light px-8 py-2 
+                hover:scale-110 transform transition duration-y">
                 Start Your Journey
               </Button>
             </div>
           </div>
 
+          <div className="md:hidden visible  md:flex  md:items-center  md:justify-center">
+            
+          </div>
           <div className="hidden md:visible  md:flex  md:items-center  md:justify-center">
             <div className="relative w-64 h-64">
               <div className="absolute top-0 left-5 w-3/4 h-[20.02em] bg-primary"></div>
