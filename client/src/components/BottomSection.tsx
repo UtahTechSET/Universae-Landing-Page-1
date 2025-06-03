@@ -5,7 +5,7 @@ const BottomSection = () => {
       <h2 className="text-white text-xl">
         <span className="red-line"></span>
         <span className="font-choplin-light">Why </span>
-        <span className="font-choplin-medium">MSD{" "}</span>
+        <span className="font-choplin-medium">Study{" "}</span>
         <span className="font-choplin-light">at </span>
         <span className="font-choplin-medium">Utah Tech?</span>
       </h2>

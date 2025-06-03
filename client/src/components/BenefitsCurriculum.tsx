@@ -11,16 +11,16 @@ const BenefitsCurriculum = () => {
                 <span className="text-2xl font-choplin-medium">Benefits</span>
               </h3>
               <p className="text-secondary text-xs mb-4">
-                Utah Tech University offers a hands-on, career-focused
-                education through its polytechnic approach-emphasizing
-                real-world projects, industry collaboration, and active
-                learning.
+                Utah Tech's polytechnic approach prepares students for today's
+                workforce. The curriculum emphasizes applied learning,
+                collaboration and industry experience. Small class sizes and expert
+                faculty create an environment where students succeed.
               </p>
               <p className="text-secondary text-xs">
-                With small class sizes, affordable tuition, and a beautiful St.
-                George location, it's an ideal place to launch your tech
-                career. Complete your degree in just 16 months through
-                flexible HyFlex learning-no coding experience required.
+                Being located in St. George, Utah, Utah Tech means a low 
+                cost of living, beautiful surroundings and proximity to Las Vegas. 
+                Students can choose fully online or in-person options through 
+                flexible HyFlex delivery.
               </p>
             </div>
           </div>
@@ -32,17 +32,23 @@ const BenefitsCurriculum = () => {
               <h3 className="mb-3">
                 <span className="text-2xl font-choplin-medium">Curriculum</span>
               </h3>
+
+              
+              <h4 className="text-sm font-bold mb-2">Software Engineering Courses Include:</h4>
               <ul className="text-secondary text-xs mb-3 list-disc ml-5">
-                <li> Fundamentals of App Programming (3 credits)</li>
-                <li> ntroduction to UI/UX (3 credits)</li>
-                <li> Multitier App Development I (3 credits)</li>
-                <li> Multitier App Development II (3 credits)</li>
-                <li> Mobile App Development (3 credits)</li>
-                <li> Advanced Topics in App Development (3 credits)</li>
-                <li> Software Development Practices (3 credits)</li>
-                <li> Software Quality and Testing (3 credits)</li>
-                <li> Tech Entrepreneurship (3 credits)</li>
-                <li> Graduate Capstone (3 credits)</li>
+                <li>Fundamentals of App Development </li>
+                <li>Software Testing and Quality</li>
+                <li>Software Project Management </li>
+                <li>Software Architecture and Design </li>
+              </ul>
+
+
+              <h4 className="text-sm font-bold mb-2">Information Technology Courses Include:</h4>
+              <ul className="text-secondary text-xs mb-3 list-disc ml-5">
+                <li>Networking Essentials</li>
+                <li>Cybersecurity Principles</li>
+                <li>Systems Administration</li>
+                <li>Database Management</li>
               </ul>
             </div>
             

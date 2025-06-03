@@ -76,9 +76,12 @@ const SecondHeadline = () => {
                   <span className="font-bold">Can You Solve It?</span>
                 </h2>
                 <p className="text-secondary text-xs ml-2 w-full sm:w-5/6">
-                  Test your problem-solving skills with a
-                  challenge built by real MSD students. If this
-                  gets your gears turning, you’re in the right place.
+                  Test your skills with a real challenge
+                  built by Utah Tech{" "}
+                  <span className="font-bold">SE{" "}</span> 
+                  and{" "}
+                  <span className="font-bold">IT{" "}</span> students.
+                  If you love solving problems, you belong here.
                 </p>
               </div>
             </div>

@@ -59,29 +59,24 @@ const Header = () => {
             </div> */}
             <img src={whiteLogo} alt="UT Logo" className="h-12 mb-10 ml-10" />
             <p className="text-white text-xs mb-3 ml-10">
-              Master's of Software Development at Utah Tech
+              Transfer to Utah Tech University from Universae
             </p>
 
-            <div id="zero-to-hero" className="inline-block mb-6 opacity-0 translate-y-10">
+            <div id="zero-to-hero" className="inline-block mb-6 opacity-0 translate-y-10 w-full">
               <span className="white-line inline-block mb-5"></span>
               <span className="text-white font-choplin-light text-2xl md:text-4xl">
-                From{" "}
-              </span>
-              <span className="text-white font-choplin-medium text-2xl md:text-4xl">
-                Zero{" "}
-              </span>
-              <span className="text-white font-choplin-light text-2xl md:text-4xl">
-                to Software
+                Take the Next Step in{" "}
               </span>
               <br />
               <div className="ml-10">
-                <span className="text-white font-choplin-medium text-2xl md:text-4xl">
-                  Hero:{" "}
+                <span className="text-white font-choplin-medium text-2xl md:text-4xl overflow-visible whitespace-nowrap">
+                  Tech -{" "}
                 </span>
                 <span className="text-white font-choplin-light text-2xl md:text-4xl">
-                  Building Skills,
-                  <br />
-                  Confidence, and Code
+                  In the{" "}
+                </span>
+                <span className="text-white font-choplin-medium text-2xl md:text-4xl">
+                  U.S.
                 </span>
               </div>
             </div>

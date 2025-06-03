@@ -20,36 +20,40 @@ const HeroSection = () => {
         ></div>
         <div className="inline-block mr-5">
           <h2 className="mb-4">
-            <span className="text-foreground font-choplin-medium text-xl md:text-2xl">
-              16 Months{" "}
-            </span>
             <span className="text-foreground font-choplin-light text-xl md:text-2xl">
-              to master
+              Earn a U.S. Degree
             </span>
             <br />
+            <span className="text-foreground font-choplin-medium text-xl md:text-2xl">
+              Online{" "}
+            </span>
             <span className="text-foreground font-choplin-light text-xl md:text-2xl">
-              today's{" "}
+              or{" "}
             </span>
             <span className="text-foreground font-choplin-medium text-xl md:text-2xl">
-              top tech{" "}
-            </span>
-            <span className="text-foreground font-choplin-light text-xl md:text-2xl">
-              skills
+              On Campus
             </span>
           </h2>
           <div className="w-3/4">
             <p className="text-secondary text-sm mb-4">
-              The Master's in Software Development is a 30-credit program
-              designed to prepare you for a career in tech — even if you don't
-              have a coding background.
+              Utah Tech University offers international students a flexible,
+              affordable path to complete a bachelor's degree in tech.
+              Transfer up to 90 credits and finish your degree in as little as
+              two years.
             </p>
 
             <p className="text-secondary text-sm">
-              You'll build real software using industry-standard tools and
-              colloborate with UX Design stuedents to gain cross-disciplinary
-              experience. The curriculum focuses on full-stack development,
-              cloud technologies, and agile practices.
+              Choose from two in-demand programs: software
+              engineering or information technology. Students gain
+              hands-on experience through real-world projects and use
+              the same tools and platforms professionals rely on.
             </p>
+
+            <ul className="text-secondary text-sm mt-5">
+              <li className="before:content-['\2705']">Hyflex learning: attend online or in-person</li>
+              <li className="before:content-['\2705']">International scholarship available</li>
+              <li className="before:content-['\2705']">Transer up to 90 credits</li>
+            </ul>
           </div>
         </div>
       </div>

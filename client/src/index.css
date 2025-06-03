@@ -109,3 +109,18 @@
   font-family: 'choplin-medium';
   src: url('../../public/fonts/Choplin-Medium-DEMO.otf')
 }
+
+
+@counter-style check-emoji {
+   system: cyclic;
+   symbols: "\2705";
+   suffix: "   ";
+}
+
+.listwithcheckmark ul {
+   list-style-type: check-emoji;
+}
+
+.listwithcheckmark li {
+   margin-bottom: 0.5em;
+}
