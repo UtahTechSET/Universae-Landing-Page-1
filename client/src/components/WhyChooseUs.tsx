@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
 
               <div className="absolute top-6 -left-5 w-5/6 h-[20.02em] bg-muted">
                 <iframe src="https://drive.google.com/file/d/1pvMTCPgRobm_YQyhhTb4BI0mAfnkiuLS/preview" 
-                  allow="autoplay" className="w-full h-full"></iframe>
+                  allow="autoplay" className="w-full h-full" allowFullScreen></iframe>
               </div>
             </div>
           </div>

@@ -48,9 +48,9 @@ const SecondHeadline = () => {
           <div className="md:relative mb-5"> 
             <div className="w-3/4 md:absolute  md:-right-[3em]">
               {/* <MediaBlock type="video" color="light" className="mb-4 w-[15em] h-2/5" /> */}
-              <div className="mb-4 w-[15em] h-[15em]">
+              <div className="mb-4 w-[15em] h-[15em] border-2">
                 <iframe src="https://drive.google.com/file/d/1MqKUM_45dXKkdaksWRqaz5Z-DG45wWIT/preview" 
-                  allow="autoplay" className="w-full h-full"></iframe>
+                  allow="autoplay" className="w-full h-full" allowFullScreen></iframe>
               </div>
               <div className="w-5/6">
                 <p>

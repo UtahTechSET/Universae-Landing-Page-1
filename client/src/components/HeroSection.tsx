@@ -5,7 +5,7 @@ import heroImage from "../../../public/images/hero1.jpg";
 const HeroSection = () => {
   return (
     <section
-      className=" sm:flex sm:flex-row sm:gap-4 sm:mb-16 bg-gray-200 sm:pl-8 sm:pt-12
+      className="sm:flex sm:flex-row sm:gap-4 sm:mb-16 bg-gray-200 sm:pl-8 sm:pt-12
       py-5"
     >
       <div className="w-full mb-5 ml-0  flex flex-row justify-center items-center

@@ -22,6 +22,9 @@ const Home = () => {
         
         <CreditTransfer />
         
+        <div className="flex flex-row justify-center items-center mb-5">
+          <span className="big-red-line w-1/4 h-[3px] mr-[5em] "></span>
+        </div>
         <SecondHeadline />
 
 
