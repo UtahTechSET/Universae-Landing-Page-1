@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import CreditTransfer from "@/components/CreditTransfer";
 import SecondHeadline from "@/components/SecondHeadline";
 import BottomSection from "@/components/BottomSection";
 import BenefitsCurriculum from "@/components/BenefitsCurriculum";
@@ -18,6 +19,9 @@ const Home = () => {
         <div className="flex flex-row justify-center items-center mt-2 sm:-mt-12">
           <span className="big-red-line w-1/4 h-[3px] mr-[5em] "></span>
         </div>
+        
+        <CreditTransfer />
+        
         <SecondHeadline />
 
 

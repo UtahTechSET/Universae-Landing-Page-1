@@ -32,7 +32,7 @@ const SecondHeadline = () => {
     <section className="md:-mb-2 mt-6 md:mt-0">
       <div className="text-center mb-4">
         <h3 className="text-foreground font-choplin-light text-lg">
-          "This is sommething I'll
+          "This is something I'll
           <br />
           use for the rest of my life"
         </h3>
@@ -47,8 +47,11 @@ const SecondHeadline = () => {
         <div className="md:grid md:grid-cols-2 md:h-[25em] ml-[20%] sm:ml-[30%] md:ml-0">
           <div className="md:relative mb-5"> 
             <div className="w-3/4 md:absolute  md:-right-[3em]">
-              <MediaBlock type="video" color="light" className="mb-4 w-[15em] h-2/5" />
-    
+              {/* <MediaBlock type="video" color="light" className="mb-4 w-[15em] h-2/5" /> */}
+              <div className="mb-4 w-[15em] h-[15em]">
+                <iframe src="https://drive.google.com/file/d/1MqKUM_45dXKkdaksWRqaz5Z-DG45wWIT/preview" 
+                  allow="autoplay" className="w-full h-full"></iframe>
+              </div>
               <div className="w-5/6">
                 <p>
                   <span className="red-line w-[1em] h-[2px]"></span>
