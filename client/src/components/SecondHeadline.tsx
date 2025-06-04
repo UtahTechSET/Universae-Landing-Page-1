@@ -32,10 +32,10 @@ const SecondHeadline = () => {
 
       <div id="stories">
       
-        <div className=" ml-[20%] 
+        <div className=" ml-[20%]
           sm:ml-[30%]
           md:grid md:grid-cols-2 md:h-[25em] md:ml-0">
-          <div className="md:relative mb-5"> 
+          <div className="md:relative mb-[2em] md:mb-5"> 
             <div className="w-3/4 md:absolute md:right-[3em] lg:-right-[3em]">
               <div className="mb-4 w-full sm:w-[20em] sm:h-[15em] border-2">
                 <iframe src="https://drive.google.com/file/d/1MqKUM_45dXKkdaksWRqaz5Z-DG45wWIT/preview" 
@@ -55,7 +55,7 @@ const SecondHeadline = () => {
             </div>
           </div>
   
-          <div className="md:relative mb-5 md:ml-5">
+          <div className="md:relative mb-[2em] md:mb-5 md:ml-5">
             <div className="md:absolute md:top-[3em] w-3/4 md:left-[1em]">
               <button onClick={openGamePopup} >
                 <figure className="mb-2 sm:w-[20em]">

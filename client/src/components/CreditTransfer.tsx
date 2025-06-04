@@ -19,14 +19,14 @@ const CreditTransfer = () => {
           <table className="w-full bg-white border border-muted">
             <thead className="bg-primary">
               <tr>
-                <th className="px-6 py-4 text-left text-white font-semibold border-r border-white">
+                <th className="px-1 sm:px-6 py-2 sm:py-4 text-center sm:text-left text-white font-semibold border-r border-white w-5">
                   Relevant Utah Tech Program
                 </th>
-                <th className="px-6 py-4 text-left text-white font-semibold border-r border-white">
+                <th className="px-1 sm:px-6 py-2 sm:py-4 text-center sm:text-left text-white font-semibold border-r border-white">
                   Universae Program
                 </th>
-                <th className="px-6 py-4 text-left text-white font-semibold">
-                  Credits Remaining at Utah Tech
+                <th className="px-1 sm:px-6 py-2 sm:py-4 text-center sm:text-left text-white font-semibold">
+                  Credits Left at Utah Tech
                 </th>
               </tr>
             </thead>

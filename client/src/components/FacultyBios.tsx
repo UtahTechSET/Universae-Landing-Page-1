@@ -52,7 +52,7 @@ const FacultyBios = () => {
         <div
           className="md:col-span-4 md:pt-[60px] md:pl-[3em]
           col-span-12 bg-primary px-4">
-          <h3 className="text-white font-choplin-light text-2xl mb-1">
+          <h3 className="text-white font-choplin-light text-2xl mb-1 pt-2 md:pt-0">
             Meet our{" "} 
             <span className="font-choplin-medium">Expert</span>
             <br />
