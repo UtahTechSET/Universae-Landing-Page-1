@@ -46,7 +46,6 @@ const FacultyBios = () => {
   // ====================== HTML SECTION ===================================
   
   return (
-
     
     <section className="md:absolute md:top-[22em] mt-15 " >
       <div className="md:grid md:grid-cols-12 md:gap-4">
