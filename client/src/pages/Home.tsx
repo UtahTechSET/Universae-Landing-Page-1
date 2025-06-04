@@ -16,7 +16,8 @@ const Home = () => {
       
       <main>
         <HeroSection />
-        <div className="flex flex-row justify-center items-center mt-2 sm:-mt-12">
+        
+        <div className="flex flex-row justify-end items-right mt-2 sm:-mt-12 w-full">
           <span className="big-red-line w-1/4 h-[3px] mr-[5em] "></span>
         </div>
         

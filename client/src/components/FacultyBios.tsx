@@ -16,19 +16,19 @@ const FacultyBios = () => {
       name: "Joe Francom, PH.D",
       title: "Professor of Computer Science",
       bio: "Dr. Francom has over 15 years of experience in software development and academic research. His work focuses on artificial intelligence and machine learning applications.",
-      expertise: ["Artificial Intelligence", "Machine Learning", "Software Architecture"]
+      expertise: ["Information Technology", "DevOps", "Cloud Computing"]
     },
     "Jeff Compas, MSCS": {
       name: "Jeff Compas, MSCS",
       title: "Assistant Professor",
       bio: "Professor Compas specializes in web development and database systems. He has industry experience at several tech companies before joining academia.",
-      expertise: ["Web Development", "Database Systems", "Cloud Computing"]
+      expertise: ["Software Architecture", "Software Practices/Methodologies", "Cloud Computing"]
     },
     "Lora Klein": {
       name: "Lora Klein",
       title: "Adjunct Professor",
       bio: "Professor Klein brings real-world cybersecurity expertise to the classroom from her years working in the financial sector.",
-      expertise: ["Cybersecurity", "Network Design", "Information Systems"]
+      expertise: ["Web Development", "UI/UX Design", "Full-Stack Development"]
     }
   };
 
