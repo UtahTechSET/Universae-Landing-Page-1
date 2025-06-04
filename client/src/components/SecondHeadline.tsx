@@ -1,5 +1,4 @@
-import MediaBlock from "./MediaBlock";
-
+import infiltrateImage from "../../../public/images/infiltrate_screenshot.png";
 
 // import { useGSAP } from "@gsap/react";
 // import { ScrollTrigger } from "gsap/all";
@@ -44,11 +43,12 @@ const SecondHeadline = () => {
 
       <div id="stories">
       
-        <div className="md:grid md:grid-cols-2 md:h-[25em] ml-[20%] sm:ml-[30%] md:ml-0">
+        <div className=" ml-[20%] 
+          sm:ml-[30%]
+          md:grid md:grid-cols-2 md:h-[25em] md:ml-0">
           <div className="md:relative mb-5"> 
-            <div className="w-3/4 md:absolute  md:-right-[3em]">
-              {/* <MediaBlock type="video" color="light" className="mb-4 w-[15em] h-2/5" /> */}
-              <div className="mb-4 w-[15em] h-[15em] border-2">
+            <div className="w-3/4 md:absolute md:right-[3em] lg:-right-[3em]">
+              <div className="mb-4 w-full sm:w-[20em] sm:h-[15em] border-2">
                 <iframe src="https://drive.google.com/file/d/1MqKUM_45dXKkdaksWRqaz5Z-DG45wWIT/preview" 
                   allow="autoplay" className="w-full h-full" allowFullScreen></iframe>
               </div>
@@ -68,7 +68,7 @@ const SecondHeadline = () => {
   
           <div className="md:relative mb-5 md:ml-5">
             <div className="md:absolute md:top-[5em] w-3/4 md:left-[1em]">
-              <MediaBlock type="video" color="dark" className="mb-4 w-[15em] h-2/5" />
+              <img src={infiltrateImage} className="w-[20em] h-[15em]"></img>
     
               <div className="w-5/6">
                 <h2 className="mb-2">

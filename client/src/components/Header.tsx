@@ -2,21 +2,21 @@ import { Button } from "@/components/ui/button";
 import whiteLogo from "../../../public/images/whiteUTlogoAsset1.png";
 import headerImage from "../../../public/images/header_hero.jpg";
 
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+// import { useGSAP } from "@gsap/react";
+// import gsap from "gsap";
 
 
 const Header = () => {
 
-  useGSAP(() => {
-    gsap.to('#zero-to-hero', {
-      y: 0,
-      ease: 'power1.inOut',
-      opacity: 1,
-      duration: 2
+  // useGSAP(() => {
+  //   gsap.to('#zero-to-hero', {
+  //     y: 0,
+  //     ease: 'power1.inOut',
+  //     opacity: 1,
+  //     duration: 2
 
-    })
-  }, []);
+  //   })
+  // }, []);
   
   return (
     <header
@@ -62,7 +62,7 @@ const Header = () => {
               Transfer to Utah Tech University from Universae
             </p>
 
-            <div id="zero-to-hero" className="inline-block mb-6 opacity-0 translate-y-10 w-full">
+            <div id="zero-to-hero" className="inline-block mb-6 w-full">
               <span className="white-line inline-block mb-5"></span>
               <span className="text-white font-choplin-light text-2xl md:text-4xl">
                 Take the Next Step in{" "}

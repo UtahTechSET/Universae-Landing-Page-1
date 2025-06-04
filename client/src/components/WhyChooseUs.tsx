@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
             
             <div className="md:hidden visible flex items-center justify-center relative w-full">
               <div className="">
-                <iframe src="https://drive.google.com/file/d/1pvMTCPgRobm_YQyhhTb4BI0mAfnkiuLS/preview" 
+                <iframe src="https://drive.google.com/file/d/1gZBwvVhIBYubbKeviHbVJH-8ghDNUOmt/preview" 
                   allow="autoplay" className="w-full h-full" allowFullScreen></iframe>
               </div>
             </div>
@@ -48,8 +48,6 @@ const WhyChooseUs = () => {
               <div className="absolute top-0 left-5 w-full h-[17.5em] bg-primary"></div>
 
               <div className="absolute top-6 -left-5 w-full h-[17.5em] bg-muted">
-                {/* <iframe src="https://drive.google.com/file/d/1pvMTCPgRobm_YQyhhTb4BI0mAfnkiuLS/preview" 
-                  allow="autoplay" className="w-full h-full" allowFullScreen></iframe> */}
                 <iframe className="w-full h-full" allow="autoplay" allowFullScreen
                   src="https://drive.google.com/file/d/1gZBwvVhIBYubbKeviHbVJH-8ghDNUOmt/preview"></iframe>
               </div>
