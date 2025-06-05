@@ -5,6 +5,7 @@ interface FacultyMember {
   title: string;
   bio: string;
   expertise: string[];
+  imageUrl: string;
 }
 
 const FacultyBios = () => {
@@ -15,24 +16,43 @@ const FacultyBios = () => {
     "Joe Francom, PH.D": {
       name: "Joe Francom, PH.D",
       title: "Professor of Computer Science",
-      bio: "Dr. Francom has over 15 years of experience in software development and academic research. His work focuses on artificial intelligence and machine learning applications.",
-      expertise: ["Information Technology", "DevOps", "Cloud Computing"]
+      bio: `Dr. Francom leads the Department of Computing at Utah Tech University, where
+            he has taught since 2008. With a Ph.D. in computer science and more than 20
+            years of experience in teaching and systems administration, he specializes in
+            DevOps, virtualization and cloud infrastructure. His background includes
+            extensive work in academic IT networks and curriculum development, preparing
+            students for careers at the intersection of software and systems engineering.`,
+      expertise: ["Multidisciplinary Degrees", "DevOps", "Cloud Computing"],
+      imageUrl: "https://computing.utahtech.edu/wp-content/uploads/sites/273/2019/08/joefrancom.png"
     },
     "Jeff Compas, MSCS": {
       name: "Jeff Compas, MSCS",
       title: "Assistant Professor",
-      bio: "Professor Compas specializes in web development and database systems. He has industry experience at several tech companies before joining academia.",
-      expertise: ["Software Architecture", "Software Practices/Methodologies", "Cloud Computing"]
+      bio: `With more than two decades of experience in software engineering, Compas
+            brings deep industry expertise to Utah Tech University. His background includes
+            leadership roles at Intel, Optum and several startups. At Utah Tech, he teaches
+            programming and software design, blending academic rigor with real-world
+            application. He also co-founded Contact Climbing Gym in St. George.`,
+      expertise: ["Software Architecture", "Software Practices/Methodologies", "Tech Entrepreneurship"],
+      imageUrl: "https://computing.utahtech.edu/wp-content/uploads/sites/273/2024/09/jeff.jpg"
     },
     "Lora Klein": {
       name: "Lora Klein",
       title: "Adjunct Professor",
-      bio: "Professor Klein brings real-world cybersecurity expertise to the classroom from her years working in the financial sector.",
-      expertise: ["Web Development", "UI/UX Design", "Full-Stack Development"]
+      bio: `Klein is a front-end developer, designer and educator who teaches programming
+            and UI/UX at Utah Tech University. Before joining the faculty, she engineered
+            digital experiences at Musicbed and Custom Bit. She brings a student-focused
+            approach and a passion for accessible, modern web development.`,
+      expertise: ["Front-End Development", "UI/UX Design", "Tech Education"],
+      imageUrl: "https://computing.utahtech.edu/wp-content/uploads/sites/273/2024/07/LoraKlein.jpg"
     }
   };
 
   const showFacultyAbout = (prof: string) => {
+    if (window.innerWidth < 640) {
+      window.scrollTo({ top: 4700, behavior: "smooth" });
+    }
+      
     if (selectedFaculty === prof) {
       // If clicking the same faculty again, close the panel
       setSelectedFaculty(null);
@@ -47,7 +67,7 @@ const FacultyBios = () => {
   
   return (
     
-    <section className="md:absolute md:top-[22em] mt-15 " >
+    <section className="md:absolute md:top-[22em] mt-15" >
       <div className="md:grid md:grid-cols-12 md:gap-4">
         <div
           className="md:col-span-4 md:pt-[60px] md:pl-[3em]
@@ -64,7 +84,7 @@ const FacultyBios = () => {
 
       <div
         className="md:flex md:flexbox md:-mt-[70px]
-        bg-muted-foreground pb-5 sm:pt-5 sm:px-5 sm:pb-0">
+        bg-muted-foreground pb-5 sm:pt-5 sm:px-5 sm:pb-0 sm:gap-8">
         <div className="md:mt-12 pl-[1em] flex items-center md:w-1/3 mb-7">
           <div>
             <span className="block red-line mt-3 h-[4px]"></span>
@@ -76,21 +96,20 @@ const FacultyBios = () => {
           </div>
         </div>
 
-        <div className="sm:relative sm:grid sm:grid-cols-3 sm:gap-[2.5em]">
+        <div className="sm:relative sm:grid sm:grid-cols-3 sm:gap-[4em]">
           {Object.keys(facultyData).map((name) => (
             <div key={name} className="relative flex flex-col items-center mb-6">
               <button 
                 onClick={() => showFacultyAbout(name)} 
-                className={`absolute top-5 md:left-4 h-6 mb-4 px-4 
-                  text-xs border-solid border-2 transition duration-300
-                  ${selectedFaculty === name 
-                    ? "bg-[--red] text-background border-[--red]" 
-                    : "bg-transparent text-[--red] border-[--red] hover:bg-[--red] hover:text-background"
-                  }`}
+                className={`absolute top-3 left-[32vw] sm:left-0 h-6 mb-4 px-4 
+                  text-xs border-solid border-2 transition hover:scale-110 duration-300
+                  bg-[--red] text-background border-[--red]
+                  ${selectedFaculty === name ? "scale-110" : "scale-100"}`}
               >
                 about
               </button>
-              <div className="bg-muted w-36 h-24 flex items-center justify-center mb-2"></div>
+              {/* <div className="bg-muted w-36 h-24 flex items-center justify-center mb-2"></div> */}
+              <img className="w-28 flex items-center justify-center mb-2" src={facultyData[name].imageUrl}></img>
               <p className="font-sm text-center">{name}</p>
             </div>
           ))}
