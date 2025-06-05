@@ -7,6 +7,7 @@ export default {
     extend: {
       backgroundImage: {
         "header-gradient-main": "linear-gradient(120deg, var(--tw-gradient-stops))",
+        "header-gradient-small": "linear-gradient(105deg, var(--tw-gradient-stops))"
       },
       fontFamily: {
         'choplin-light': ['choplin-light', 'serif'],

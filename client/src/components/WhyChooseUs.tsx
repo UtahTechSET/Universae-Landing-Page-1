@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
           <div className="flex flex-col md:flex-row justify-between items-start">
             
             <div className="md:hidden visible flex items-center justify-center relative w-full">
-              <div className="border mb-8">
+              <div className="border mb-8 shadow-lg">
                 <iframe src="https://drive.google.com/file/d/1gZBwvVhIBYubbKeviHbVJH-8ghDNUOmt/preview" 
                   allow="autoplay" className="w-full h-full" allowFullScreen></iframe>
               </div>
@@ -48,7 +48,7 @@ const WhyChooseUs = () => {
             <div className="relative w-full h-80">
               <div className="absolute top-0 left-5 w-full h-[17.5em] bg-primary"></div>
 
-              <div className="absolute top-6 -left-5 w-full h-[17.5em] bg-muted">
+              <div className="absolute top-6 -left-5 w-full h-[17.5em] bg-muted  shadow-lg">
                 <iframe className="w-full h-full" allow="autoplay" allowFullScreen
                   src="https://drive.google.com/file/d/1gZBwvVhIBYubbKeviHbVJH-8ghDNUOmt/preview"></iframe>
               </div>

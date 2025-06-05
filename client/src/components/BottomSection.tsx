@@ -1,7 +1,7 @@
 const BottomSection = () => {
   return (
     <section className="
-        bg-foreground p-2 w-[21em]
+        bg-foreground px-2 py-4 w-[21em]
         sm:pb-10 sm:py-6 sm:px-4 sm:w-[25em]
         md:absolute  md:h-[450px]
       ">
