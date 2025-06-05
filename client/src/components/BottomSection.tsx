@@ -1,7 +1,10 @@
 const BottomSection = () => {
   return (
-    <section className="md:absolute sm:pb-10 sm:py-6 sm:px-4 sm:w-[25em] md:h-[450px]
-      bg-foreground p-5 w-5/6 sm:w-3/4">
+    <section className="
+        bg-foreground p-2 w-[21em]
+        sm:pb-10 sm:py-6 sm:px-4 sm:w-[25em]
+        md:absolute  md:h-[450px]
+      ">
       <h2 className="text-white text-xl">
         <span className="red-line h-[0.1em]"></span>
         <span className="font-choplin-light">Why </span>

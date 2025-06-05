@@ -34,21 +34,21 @@ const BenefitsCurriculum = () => {
               </h3>
 
               
-              <h4 className="text-sm font-bold mb-2">Software Engineering Courses Include:</h4>
+              <h4 className="text-sm font-bold mb-2">Software engineering courses include:</h4>
               <ul className="text-secondary text-xs mb-3 list-disc ml-5">
-                <li>Fundamentals of App Development </li>
-                <li>Software Testing and Quality</li>
-                <li>Software Project Management </li>
-                <li>Software Architecture and Design </li>
+                <li>Fundamentals of app development </li>
+                <li>Software testing and quality</li>
+                <li>Software project management </li>
+                <li>Software architecture and design </li>
               </ul>
 
 
-              <h4 className="text-sm font-bold mb-2">Information Technology Courses Include:</h4>
+              <h4 className="text-sm font-bold mb-2">Information technology courses include:</h4>
               <ul className="text-secondary text-xs mb-3 list-disc ml-5">
-                <li>Networking Essentials</li>
-                <li>Cybersecurity Principles</li>
-                <li>Systems Administration</li>
-                <li>Database Management</li>
+                <li>Networking essentials</li>
+                <li>Cybersecurity principles</li>
+                <li>Systems administration</li>
+                <li>Database management</li>
               </ul>
             </div>
             

@@ -14,7 +14,7 @@ const FacultyBios = () => {
   // Faculty data
   const facultyData: Record<string, FacultyMember> = {
     "Joe Francom, PH.D": {
-      name: "Joe Francom, PH.D",
+      name: "Joe Francom, Ph.D",
       title: "Professor of Computer Science",
       bio: `Dr. Francom leads the Department of Computing at Utah Tech University, where
             he has taught since 2008. With a Ph.D. in computer science and more than 20
@@ -25,7 +25,7 @@ const FacultyBios = () => {
       expertise: ["Multidisciplinary Degrees", "DevOps", "Cloud Computing"],
       imageUrl: "https://computing.utahtech.edu/wp-content/uploads/sites/273/2019/08/joefrancom.png"
     },
-    "Jeff Compas, MSCS": {
+    "Jeff Compas, M.S.C.S.": {
       name: "Jeff Compas, MSCS",
       title: "Assistant Professor",
       bio: `With more than two decades of experience in software engineering, Compas
@@ -96,17 +96,17 @@ const FacultyBios = () => {
           </div>
         </div>
 
-        <div className="sm:relative sm:grid sm:grid-cols-3 sm:gap-[4em]">
+        <div className="sm:relative grid grid-cols-3 sm:gap-[4em]">
           {Object.keys(facultyData).map((name) => (
             <div key={name} className="relative flex flex-col items-center mb-6">
               <button 
                 onClick={() => showFacultyAbout(name)} 
-                className={`absolute top-3 left-[32vw] sm:left-0 h-6 mb-4 px-4 
-                  text-xs border-solid border-2 transition hover:scale-110 duration-300
+                className={`absolute top-3 left-[1em] sm:left-0 h-6 mb-4 px-4 
+                  text-xs border-solid border-2 transition hover:scale-110 duration-150
                   bg-[--red] text-background border-[--red]
                   ${selectedFaculty === name ? "scale-110" : "scale-100"}`}
               >
-                about
+                About
               </button>
               {/* <div className="bg-muted w-36 h-24 flex items-center justify-center mb-2"></div> */}
               <img className="w-28 flex items-center justify-center mb-2" src={facultyData[name].imageUrl}></img>

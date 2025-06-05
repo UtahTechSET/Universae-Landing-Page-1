@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
           <div className="flex flex-col md:flex-row justify-between items-start">
             
             <div className="md:hidden visible flex items-center justify-center relative w-full">
-              <div className="">
+              <div className="border mb-8">
                 <iframe src="https://drive.google.com/file/d/1gZBwvVhIBYubbKeviHbVJH-8ghDNUOmt/preview" 
                   allow="autoplay" className="w-full h-full" allowFullScreen></iframe>
               </div>
@@ -24,13 +24,14 @@ const WhyChooseUs = () => {
                 <span className="font-choplin-medium">Choose Us?</span>
               </h3>
 
-              <ul className="list-inside">
-                <li className="mb-5 text-sm before:content-['\2705']">Career-ready skills in software engineering, cybersecurity,
+              <ul className="listwithcheckmark ml-4">
+                
+                <li className="mb-5 text-sm">Career-ready skills in software engineering, cybersecurity,
                 DevOps, and app development.</li>
-                <li className="mb-5 text-sm before:content-['\2705']">Flexible HyFlex learning online, in person, or both.</li>
-                <li className="mb-5 text-sm before:content-['\2705']">Hands-on experience via internships and projects.</li>
-                <li className="mb-5 text-sm before:content-['\2705']">Merit-based scholarships for qualifying transfers.</li>
-                <li className="mb-5 text-sm before:content-['\2705']">Easy credit transfer from Universae to Utah Tech degrees.</li>
+                <li className="mb-5 text-sm">Flexible HyFlex learning — online, in person, or both.</li>
+                <li className="mb-5 text-sm">Hands-on experience through internships and real-world projects.</li>
+                <li className="mb-5 text-sm">Merit-based scholarships available for qualifying transfer students.</li>
+                <li className="mb-5 text-sm">Seamless credit transfer from Universae to Utah Tech degree programs.</li>
 
               </ul>
          

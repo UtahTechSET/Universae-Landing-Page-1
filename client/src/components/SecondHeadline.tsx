@@ -71,10 +71,8 @@ const SecondHeadline = () => {
                 </h2>
                 <p className="text-secondary text-xs ml-2 w-full sm:w-5/6">
                   Click the image above to test your skills with 
-                  a real challenge built by Utah Tech{" "}
-                  <span className="font-bold">SE{" "}</span> 
-                  and{" "}
-                  <span className="font-bold">IT{" "}</span> students.
+                  a real challenge built by a Utah Tech{" "}
+                  <span className="font-bold">SE{" "}</span> student.
                   If you love solving problems, you belong here.
                 </p>
               </div>

@@ -98,6 +98,18 @@
   .play-button {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-0 h-0 border-t-[12px] border-t-transparent border-b-[12px] border-b-transparent border-l-[20px] border-l-primary;
   }
+
+  .listwithcheckmark {
+    list-style-type: check-emoji;
+    list-style-position: outside;
+  }
+
+}
+
+@counter-style check-emoji {
+   system: cyclic;
+   symbols: "\2705";
+   suffix: "";
 }
 
 @font-face {
@@ -111,16 +123,3 @@
 }
 
 
-@counter-style check-emoji {
-   system: cyclic;
-   symbols: "\2705";
-   suffix: "   ";
-}
-
-.listwithcheckmark ul {
-   list-style-type: check-emoji;
-}
-
-.listwithcheckmark li {
-   margin-bottom: 0.5em;
-}

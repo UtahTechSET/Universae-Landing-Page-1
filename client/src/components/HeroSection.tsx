@@ -9,7 +9,7 @@ const HeroSection = () => {
       py-5"
     >
       <div className="w-full mb-5 ml-0  flex flex-row justify-center items-center
-         md:ml-[3em] lg:ml-[10em]">
+         md:ml-[3em] ">
         <img src={heroImage} className="w-1/2 sm:w-full sm:min-h-[267px] sm:min-w-[267px]"></img>
       </div>
 
@@ -49,10 +49,10 @@ const HeroSection = () => {
               the same tools and platforms professionals rely on.
             </p>
 
-            <ul className="text-secondary text-sm mt-5">
-              <li className="before:content-['\2705']">Hyflex learning: attend online or in-person</li>
-              <li className="before:content-['\2705']">International scholarship available</li>
-              <li className="before:content-['\2705']">Transer up to 90 credits</li>
+            <ul className="listwithcheckmark text-secondary text-sm mt-5 pl-4">
+              <li className="">Hyflex learning: attend online or in-person</li>
+              <li className="">Scholarships available for international students</li>
+              <li className="">Tranfser up to 90 credits</li>
             </ul>
           </div>
         </div>
