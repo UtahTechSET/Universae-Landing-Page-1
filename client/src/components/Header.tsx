@@ -1,22 +1,8 @@
-import { Button } from "@/components/ui/button";
 import whiteLogo from "../../../public/images/whiteUTlogoAsset1.png";
 import headerImage from "../../../public/images/header_hero.jpg";
 
-// import { useGSAP } from "@gsap/react";
-// import gsap from "gsap";
-
 
 const Header = () => {
-
-  // useGSAP(() => {
-  //   gsap.to('#zero-to-hero', {
-  //     y: 0,
-  //     ease: 'power1.inOut',
-  //     opacity: 1,
-  //     duration: 2
-
-  //   })
-  // }, []);
   
   return (
     <header

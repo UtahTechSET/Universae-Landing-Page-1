@@ -17,7 +17,8 @@ const Home = () => {
       
       <main>
         <HeroSection />
-        
+
+        {/* Black section between these two components */}
         <div className="sm:h-4 h-0 bg-foreground "></div>
         
         <Scholarship />

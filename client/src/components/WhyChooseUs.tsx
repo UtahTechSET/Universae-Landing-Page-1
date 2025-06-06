@@ -25,14 +25,12 @@ const WhyChooseUs = () => {
               </h3>
 
               <ul className="listwithcheckmark ml-4">
-                
                 <li className="mb-5 text-sm">Career-ready skills in software engineering, cybersecurity,
                 DevOps, and app development.</li>
                 <li className="mb-5 text-sm">Flexible HyFlex learning — online, in person or both.</li>
                 <li className="mb-5 text-sm">Hands-on experience through internships and real-world projects.</li>
                 <li className="mb-5 text-sm">Merit-based scholarships available for qualifying transfer students.</li>
                 <li className="mb-5 text-sm">Seamless credit transfer from Universae to Utah Tech degree programs.</li>
-
               </ul>
          
   
