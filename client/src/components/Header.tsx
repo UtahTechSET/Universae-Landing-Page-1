@@ -88,13 +88,13 @@ const Header = () => {
               </div>
             </div>
 
-            <Button
-              variant="outline"
+            <a
+              href="https://apply.utahtech.edu/apply/"
               className="sm:ml-10 px-6 py-2 bg-transparent  border-white font-light text-white 
               transition duration-300 hover:bg-white hover:text-primary border rounded-none"
             >
               Apply Now
-            </Button>
+            </a>
           </div>
 
           <div className="w-full md:w-1/2">

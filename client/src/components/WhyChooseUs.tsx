@@ -38,7 +38,9 @@ const WhyChooseUs = () => {
   
               <Button className="rounded-none text-background bg-primary font-light px-8 py-2 
                 hover:scale-110 transform transition duration-y mt-8">
-                Start Your Journey
+                <a href="https://apply.utahtech.edu/apply/" className="w-full h-full">
+                  Start Your Journey
+                </a>
               </Button>
             </div>
           </div>
