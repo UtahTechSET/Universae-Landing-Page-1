@@ -52,7 +52,7 @@ const HeroSection = () => {
             <ul className="listwithcheckmark text-secondary text-sm mt-5 pl-4">
               <li className="">Hyflex learning: attend online or in-person</li>
               <li className="">Scholarships available for international students</li>
-              <li className="">Tranfser up to 90 credits</li>
+              <li className="">Transfer up to 90 credits</li>
             </ul>
           </div>
         </div>

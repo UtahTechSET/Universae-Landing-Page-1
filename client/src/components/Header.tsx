@@ -24,6 +24,7 @@ const Header = () => {
       className="sm:mr-10 
       bg-cover 
       bg-center
+      sm:overflow-visible
       
       relative
       overflow-hidden
@@ -48,7 +49,6 @@ const Header = () => {
       before:md:to-[rgba(0,0,0,0)_29em]
       "
     >
-      {/* before:bg-[linear-gradient(120deg,var(--red-rgba)_40%,var(--mid-gray)_40%,var(--mid-gray)_100%)] */}
       <div className="
         h-8 bg-header-gradient-small from-[rgba(0,0,0,0)_20em] to-[rgba(255,255,255,1)_20em]
         sm:h-5 sm:bg-header-gradient-main sm:from-[rgba(0,0,0,0)_23em] sm:to-[rgba(255,255,255,1)_23em]
@@ -56,7 +56,7 @@ const Header = () => {
         "
       >
       </div>
-      <div className="container ml-auto pr-5 pl-4 py-12">
+      <div className="container pr-5 pl-4 py-12 ">
         <div className="flex flex-col md:flex-row justify-between items-start">
           <div className="mb-8 md:mb-0">
            
@@ -96,13 +96,18 @@ const Header = () => {
               Apply Now
             </a>
           </div>
-
-          <div className="w-full md:w-1/2">
+          <div className="md:hidden w-full md:w-1/2 ">
             <div
               className="bg-white h-10 w-full
               bg-[linear-gradient(90deg,var(--white)_80%,var(--red)_80%)]"
             ></div>
           </div>
+        </div>
+        <div className="invisible md:visible absolute top-[3em] -right-10 w-[70%]">
+          <div
+            className="bg-white h-12 w-full overflow-visible
+            bg-[linear-gradient(90deg,var(--white)_80%,var(--red)_80%)]"
+          ></div>
         </div>
       </div>
     </header>

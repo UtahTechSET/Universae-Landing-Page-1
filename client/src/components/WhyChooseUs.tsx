@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 const WhyChooseUs = () => {
   return (
     <section className="sm:relative mb-16 container mx-auto px-4">
-      <div className="sm:absolute right-10 md:-top-8 big-red-line w-[15em] h-[3px] mb-5"></div>
+      <div className="sm:absolute sm:right-10 sm:top-5 big-red-line w-[15em] h-[3px]"></div>
 
-      <div className="mt-8 sm:-ml-8">
+      <div className="pt-[2em] sm:-ml-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col md:flex-row justify-between items-start">
             
@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
                 
                 <li className="mb-5 text-sm">Career-ready skills in software engineering, cybersecurity,
                 DevOps, and app development.</li>
-                <li className="mb-5 text-sm">Flexible HyFlex learning — online, in person, or both.</li>
+                <li className="mb-5 text-sm">Flexible HyFlex learning — online, in person or both.</li>
                 <li className="mb-5 text-sm">Hands-on experience through internships and real-world projects.</li>
                 <li className="mb-5 text-sm">Merit-based scholarships available for qualifying transfer students.</li>
                 <li className="mb-5 text-sm">Seamless credit transfer from Universae to Utah Tech degree programs.</li>

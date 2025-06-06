@@ -30,7 +30,7 @@ const Home = () => {
         <SecondHeadline />
 
 
-        <div className="md:relative md:pb-[45em]">
+        <div className="md:relative  md:h-[42em]">
 
           <BottomSection />
           <BenefitsCurriculum />

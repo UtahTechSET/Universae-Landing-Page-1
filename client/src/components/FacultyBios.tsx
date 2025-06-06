@@ -13,7 +13,7 @@ const FacultyBios = () => {
   
   // Faculty data
   const facultyData: Record<string, FacultyMember> = {
-    "Joe Francom, PH.D": {
+    "Joe Francom, Ph.D": {
       name: "Joe Francom, Ph.D",
       title: "Professor of Computer Science",
       bio: `Dr. Francom leads the Department of Computing at Utah Tech University, where
@@ -26,7 +26,7 @@ const FacultyBios = () => {
       imageUrl: "https://computing.utahtech.edu/wp-content/uploads/sites/273/2019/08/joefrancom.png"
     },
     "Jeff Compas, M.S.C.S.": {
-      name: "Jeff Compas, MSCS",
+      name: "Jeff Compas, M.S.C.S.",
       title: "Assistant Professor",
       bio: `With more than two decades of experience in software engineering, Compas
             brings deep industry expertise to Utah Tech University. His background includes
@@ -70,8 +70,8 @@ const FacultyBios = () => {
     <section className="md:absolute md:top-[22em] mt-15" >
       <div className="md:grid md:grid-cols-12 md:gap-4">
         <div
-          className="md:col-span-4 md:pt-[60px] md:pl-[3em]
-          col-span-12 bg-primary px-4">
+          className="col-span-12 bg-primary px-4
+          md:col-span-4 md:pt-[60px] md:pl-[3em]">
           <h3 className="text-white font-choplin-light text-2xl mb-1 pt-2 md:pt-0">
             Meet our{" "} 
             <span className="font-choplin-medium">Expert</span>
@@ -96,7 +96,7 @@ const FacultyBios = () => {
           </div>
         </div>
 
-        <div className="sm:relative grid grid-cols-3 sm:gap-[4em]">
+        <div className="sm:relative grid grid-cols-3 sm:gap-[1em] lg:gap-[4em]">
           {Object.keys(facultyData).map((name) => (
             <div key={name} className="relative flex flex-col items-center mb-6">
               <button 

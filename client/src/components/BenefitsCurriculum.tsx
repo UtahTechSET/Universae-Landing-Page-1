@@ -17,8 +17,8 @@ const BenefitsCurriculum = () => {
                 faculty create an environment where students succeed.
               </p>
               <p className="text-secondary text-xs">
-                Being located in St. George, Utah, Utah Tech means a low 
-                cost of living, beautiful surroundings and proximity to Las Vegas. 
+                Being located in St. George, attending Utah Tech means a low 
+                cost of living, beautiful surroundings and proximity close to Las Vegas. 
                 Students can choose fully online or in-person options through 
                 flexible HyFlex delivery.
               </p>

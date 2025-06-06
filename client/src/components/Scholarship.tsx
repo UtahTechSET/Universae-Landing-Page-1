@@ -9,8 +9,9 @@ const Scholarship = () => {
               International Merit-Based Scholarship
             </h2>
             <p className="text-secondary text-sm max-w-2xl">
-              Utah Tech University is committed to supporting international students in their academic journey. 
-              We offer competitive scholarships to help make your education more accessible and affordable.
+              Utah Tech University is committed to supporting international students 
+              in their academic journey. The university offers competitive scholarships 
+              to help make education more accessible and affordable.
             </p>
           </div>
         </div>
@@ -58,15 +59,15 @@ const Scholarship = () => {
               <div className="space-y-2">
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-secondary rounded-full flex-shrink-0"></div>
-                  <span className="text-sm">Must be working toward an Associates’ or Bachelors’ degree</span>
+                  <span className="text-sm">Must be working toward an associates’ or bachelors’ degree</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-secondary rounded-full flex-shrink-0"></div>
-                  <span className="text-sm">Must have a verification of eligibility signed by an International Office representative.</span>
+                  <span className="text-sm">Must have a verification of eligibility signed by an international office representative.</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-secondary rounded-full flex-shrink-0"></div>
-                  <span className="text-sm">Must be in good standing with the International Student & Scholars Office</span>
+                  <span className="text-sm">Must be in good standing with the International Student & Scholarship Office</span>
                 </div>
               </div>
             </div>
@@ -74,8 +75,9 @@ const Scholarship = () => {
 
           <div className="mt-8 pt-6 border-t border-muted text-center">
             <p className="text-sm text-secondary">
-              * The award is for $5,500 each year; $2,750 for the fall and $2,750 for 
-              the spring semester of enrollment and is applicable to tuition only.
+              * The award totals $5,500 per year — $2,750 for the fall semester
+              <br />
+               and $2,750 for the spring — and applies to tuition only.
             </p>
           </div>
         </div>
