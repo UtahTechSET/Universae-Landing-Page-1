@@ -11,7 +11,7 @@ import FacultyBios from "@/components/FacultyBios";
 
 const Home = () => {
   return (
-    <div className="font-sans bg-white text-foreground lg:w-[1050px] lg:mx-auto">
+    <div className="font-sans bg-white text-foreground lg:w-[1250px] lg:mx-auto">
 
       <Header />
       
