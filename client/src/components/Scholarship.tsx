@@ -18,6 +18,7 @@ const Scholarship = () => {
 
         <div className="bg-white shadow-lg p-8 border-l-4 border-primary">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8">
+            
             {/* Scholarship Amount - Featured */}
             <div className="md:col-span-2 text-center bg-primary text-white p-6 rounded-lg mb-4">
               <h3 className="text-3xl sm:text-5xl font-bold mb-2">

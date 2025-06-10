@@ -1,4 +1,6 @@
 import whiteLogo from "../../../public/images/whiteUTlogoAsset1.png";
+import combinedLogo from "../../../public/images/bitmap.png";
+
 import headerImage from "../../../public/images/header_hero.jpg";
 
 
@@ -47,7 +49,20 @@ const Header = () => {
         <div className="flex flex-col md:flex-row justify-between items-start">
           <div className="mb-8 md:mb-0">
            
-            <img src={whiteLogo} alt="UT Logo" className="h-12 mb-10 sm:ml-10" />
+            {/* The top logo and their respective links*/}
+            <div className="relative h-[8em]">
+              <img src={combinedLogo} className="h-[5em] mb-5 sm:ml-10 absolute" />
+              {/* bg-foreground opacity-50 */}
+              <a className="absolute w-[9em] h-[5em] left-[-0.4em] sm:left-[2em]"
+                href="https://utahtech.edu/">
+              </a>
+              {/* bg-red-500 opacity-50 */}
+              <a className="absolute w-[5em] h-[5em] left-[10.4em] sm:left-[13em]"
+                href="https://universae.com/">
+              </a>
+            </div>
+         
+
             <p className="text-white text-xs mb-3 sm:ml-10">
               Transfer to Utah Tech University from Universae
             </p>
