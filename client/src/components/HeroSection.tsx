@@ -6,11 +6,10 @@ const HeroSection = () => {
   return (
     <section
       className="sm:flex sm:flex-row sm:gap-4 bg-gray-200 sm:pl-8 sm:pt-12
-      py-5"
+      py-5 border-b-[2.5em] border-foreground"
     >
-      <div className="w-full mb-5 ml-0  flex flex-row justify-center items-center
-         md:ml-[3em] ">
-        <img src={heroImage} className="w-1/2 sm:w-full sm:min-h-[267px] sm:min-w-[267px]"></img>
+      <div className="w-full mb-5 ml-0 flex flex-row justify-center items-center md:ml-[3em] ">
+        <img src={heroImage} className="w-1/2 max-w-[25em] sm:w-full sm:min-h-[267px] sm:min-w-[267px]"></img>
       </div>
 
       <div className="mb-4 flex">
@@ -50,9 +49,9 @@ const HeroSection = () => {
             </p>
 
             <ul className="listwithcheckmark text-secondary text-sm mt-5 pl-4">
-              <li className="">Hyflex learning: attend online or in-person</li>
-              <li className="">Scholarships available for international students</li>
-              <li className="">Transfer up to 90 credits</li>
+              <li>Hyflex learning: attend online or in-person</li>
+              <li>Scholarships available for international students</li>
+              <li>Transfer up to 90 credits</li>
             </ul>
           </div>
         </div>

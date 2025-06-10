@@ -1,6 +1,16 @@
 import { Button } from "@/components/ui/button";
+import { useState } from 'react';
+import videoImage from "../../../public/images/hero1.jpg";
+
+
 
 const WhyChooseUs = () => {
+  const [clickedOnVideo, setclickedOnVideo] = useState(false);
+  
+  function handleClick() {
+    setclickedOnVideo(true);
+  }
+  
   return (
     <section className="sm:relative mb-16 container mx-auto px-4">
       <div className="sm:absolute sm:right-10 sm:top-5 big-red-line w-[15em] h-[3px]"></div>
@@ -36,7 +46,7 @@ const WhyChooseUs = () => {
   
               <Button className="rounded-none text-background bg-primary font-light px-8 py-2 
                 hover:scale-110 transform transition duration-y mt-8">
-                <a href="https://apply.utahtech.edu/apply/" className="w-full h-full">
+                <a href="javascript:void( window.open( 'https://form.jotform.com/251595236042152', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=700, screenX=300, screenY=150') )" className="w-full h-full">
                   Start Your Journey
                 </a>
               </Button>
@@ -45,12 +55,16 @@ const WhyChooseUs = () => {
 
 
           <div className="hidden md:visible  md:flex  md:items-center  md:justify-center">
-            <div className="relative w-full h-80">
+            <div className="relative w-full h-80 max-w-[28em]">
               <div className="absolute top-0 left-5 w-full h-[17.5em] bg-primary"></div>
 
+              {/* New Section with thumbnail */}
               <div className="absolute top-6 -left-5 w-full h-[17.5em] bg-muted  shadow-lg">
-                <iframe className="w-full h-full" allow="autoplay" allowFullScreen
-                  src="https://drive.google.com/file/d/1gZBwvVhIBYubbKeviHbVJH-8ghDNUOmt/preview"></iframe>
+                {clickedOnVideo
+                  ? <iframe className="w-full h-full" allow="autoplay" allowFullScreen
+                    src="https://drive.google.com/file/d/1gZBwvVhIBYubbKeviHbVJH-8ghDNUOmt/preview?start=1"></iframe>
+                  : <img src={videoImage} onClick={handleClick} className="w-full h-full"></img>
+                }
               </div>
             </div>
           </div>

@@ -18,18 +18,16 @@ const Home = () => {
       <main>
         <HeroSection />
 
-        {/* Black section between these two components */}
-        <div className="sm:h-4 h-0 bg-foreground "></div>
-        
         <Scholarship />
         
         <CreditTransfer />
-        
+
+        {/* Red Line Between Section */}
         <div className="flex flex-row justify-center items-center mb-5">
           <span className="big-red-line w-1/4 h-[3px] mr-[5em] "></span>
         </div>
-        <SecondHeadline />
 
+        <SecondHeadline />
 
         <div className="md:relative  md:h-[42em]">
 

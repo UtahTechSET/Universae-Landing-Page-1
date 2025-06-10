@@ -7,10 +7,11 @@ const Header = () => {
   return (
     <header
       style={{ backgroundImage: `url(${headerImage})` }}
-      className="sm:mr-10 
+      className=" 
       bg-cover 
       bg-center
       sm:overflow-visible
+      sm:mr-10
       
       relative
       overflow-hidden
@@ -75,11 +76,11 @@ const Header = () => {
             </div>
 
             <a
-              href="https://apply.utahtech.edu/apply/"
+              href="javascript:void( window.open( 'https://form.jotform.com/251595236042152', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=700, screenX=300, screenY=150') )"
               className="sm:ml-10 px-6 py-2 bg-transparent  border-white font-light text-white 
               transition duration-300 hover:bg-white hover:text-primary border rounded-none"
             >
-              Apply Now
+              Learn More
             </a>
           </div>
           <div className="md:hidden w-full md:w-1/2 ">

@@ -34,25 +34,26 @@ const CreditTransfer = () => {
             <tbody>
               {/* Row 1 */}
               <tr className="border-b border-muted transition-colors">
-                <td className=" hover:bg-muted/50 px-6 py-4 border-r border-muted text-sm">Advanced Technician in Multiplatform Application Development (MAP), Online</td>
+                <td className=" hover:bg-muted/50 px-6 py-4 border-r border-muted text-sm">
+                  Advanced Technician in Multiplatform Application Development (MAP), Online
+                </td>
                 <td rowSpan={2} className=" hover:bg-muted/50 px-6 py-4 border-r border-muted text-sm">Software Engineering, B.S.</td>
                 <td className="hover:bg-muted/50 px-6 py-4 text-sm">69</td>
               </tr>
               {/* Row 2 */}
               <tr className="border-b border-muted transition-colors">
-                <td className="hover:bg-muted/50 px-6 py-4 border-r border-muted text-sm">Advanced Technician in Online Web Application Development (DAW)</td>
+                <td className="hover:bg-muted/50 px-6 py-4 border-r border-muted text-sm">
+                  Advanced Technician in Online Web Application Development (DAW)
+                </td>
                 <td className="hover:bg-muted/50 px-6 py-4 text-sm">76</td>
               </tr>
               {/* Row 3 */}
               <tr className="border-b border-muted transition-colors">
-                <td className="hover:bg-muted/50 px-6 py-4 border-r border-muted text-sm">Advanced Technician in Network Systems Administration (ASIR)</td>
-                <td rowSpan={2} className="hover:bg-muted/50 px-6 py-4 border-r border-muted text-sm">Information Technology, B.S.</td>
+                <td className="hover:bg-muted/50 px-6 py-4 border-r border-muted text-sm">
+                  Advanced Technician in Network Systems Administration (ASIR)
+                </td>
+                <td className="hover:bg-muted/50 px-6 py-4 border-r border-muted text-sm">Information Technology, B.S.</td>
                 <td className="hover:bg-muted/50 px-6 py-4 text-sm">81</td>
-              </tr>
-              {/* Row 4 */}
-              <tr className="transition-colors">
-                <td className="hover:bg-muted/50 px-6 py-4 border-r border-muted text-sm">Cybersecurity</td>
-                <td className="hover:bg-muted/50 px-6 py-4 text-sm">TBD</td>
               </tr>
             </tbody>
           </table>
