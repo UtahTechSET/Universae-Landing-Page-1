@@ -98,6 +98,9 @@ const Header = () => {
               Learn More
             </a>
           </div>
+
+          {/* Search Bar looking thing small */}
+
           <div className="md:hidden w-full md:w-1/2 ">
             <div
               className="bg-white h-10 w-full
@@ -105,7 +108,9 @@ const Header = () => {
             ></div>
           </div>
         </div>
-        <div className="invisible md:visible absolute top-[3em] -right-10 w-[70%]">
+
+        {/* Search Bar looking thing bigger */}
+        <div className="invisible md:visible absolute top-[3em] -right-10 w-[60%] lg:w-[70%]">
           <div
             className="bg-white h-12 w-full overflow-visible
             bg-[linear-gradient(90deg,var(--white)_80%,var(--red)_80%)]"

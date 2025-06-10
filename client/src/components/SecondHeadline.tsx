@@ -1,4 +1,6 @@
 import infiltrateImage from "../../../public/images/infiltrate_screenshot.png";
+import { useState } from 'react';
+import videoImage from "../../../public/images/temp_thumbnail.jpg";
 
 
 const openGamePopup = () => {
@@ -14,8 +16,14 @@ const openGamePopup = () => {
   );
 };
 
+
 const SecondHeadline = () => {
-  
+  const [clickedOnVideo, setclickedOnVideo] = useState(false);
+
+  function handleClick() {
+    setclickedOnVideo(true);
+  }
+
   return (
     <section className="md:-mb-2 mt-6 md:mt-0">
       <div className="text-center mb-4">
@@ -37,10 +45,16 @@ const SecondHeadline = () => {
           md:grid md:grid-cols-2 md:h-[25em] md:ml-0">
           <div className="md:relative mb-[2em] md:mb-5"> 
             <div className="w-3/4 md:absolute md:right-[3em] lg:-right-[3em]">
+
+              {/* New Section with thumbnail */}
               <div className="mb-4 w-full sm:w-[20em] sm:h-[15em] border-2">
-                <iframe src="https://drive.google.com/file/d/1MqKUM_45dXKkdaksWRqaz5Z-DG45wWIT/preview" 
-                  allow="autoplay" className="w-full h-full" allowFullScreen></iframe>
+                {clickedOnVideo
+                  ? <iframe src="https://drive.google.com/file/d/1MqKUM_45dXKkdaksWRqaz5Z-DG45wWIT/preview" 
+                    allow="autoplay" className="w-full h-full" allowFullScreen></iframe>
+                  : <img src={videoImage} onClick={handleClick} className="w-full h-full object-cover"></img>
+                }
               </div>
+                
               <div className="w-5/6">
                 <p>
                   <span className="red-line w-[1em] h-[2px]"></span>

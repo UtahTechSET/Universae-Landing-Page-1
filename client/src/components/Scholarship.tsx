@@ -27,11 +27,14 @@ const Scholarship = () => {
         <div className="bg-white shadow-lg p-8 border-l-4 border-primary">
           {/* Scholarship Amount - Featured (Clickable) */}
           <div 
-            className="md:col-span-2 text-center bg-primary text-white p-6 rounded-lg mb-4 cursor-pointer hover:bg-primary/90 transition-colors"
+            className="md:col-span-2 text-center bg-primary text-white p-6 rounded-lg mb-4 
+            cursor-pointer hover:bg-primary/90 transition-colors"
             onClick={toggleExpanded}
           >
-            <h3 className="text-3xl sm:text-5xl font-bold mb-2">
-              $5,500 <span className="font-light text-lg sm:text-3xl">per year*</span> 
+            <h3 className="font-light text-lg sm:text-3xl">
+              Get paid{" "}
+              <span className="text-3xl sm:text-5xl font-bold mb-2">$5,500 </span>
+              per year to learn at Utah Tech*
             </h3>
             <div className="flex justify-center items-center mt-2">
               <span className="text-sm mr-2">View Requirements</span>
@@ -40,13 +43,16 @@ const Scholarship = () => {
                 fill="currentColor" 
                 viewBox="0 0 20 20"
               >
-                <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 
+                  1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
               </svg>
             </div>
           </div>
 
           {/* Collapsible Requirements Section */}
-          <div className={`transition-all duration-300 overflow-hidden ${isExpanded ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}`}>
+          <div className={`transition-all duration-300 overflow-hidden 
+              ${isExpanded ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}`}>
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 pt-4">
               {/* Requirements Grid */}
               <div className="space-y-4">
@@ -58,7 +64,7 @@ const Scholarship = () => {
                   <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
                   <div>
                     <span className="font-medium">Minimum Required GPA:</span>
-                    <span className="ml-2 text-primary font-bold">3.2</span>
+                    <span className="ml-2 text-primary font-bold">3.3 equivalent</span>
                   </div>
                 </div>
 

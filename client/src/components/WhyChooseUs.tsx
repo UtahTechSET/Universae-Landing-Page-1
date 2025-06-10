@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useState } from 'react';
-import videoImage from "../../../public/images/hero1.jpg";
+import videoImage from "../../../public/images/temp_thumbnail.jpg";
 
 
 
@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
                 {clickedOnVideo
                   ? <iframe className="w-full h-full" allow="autoplay" allowFullScreen
                     src="https://drive.google.com/file/d/1gZBwvVhIBYubbKeviHbVJH-8ghDNUOmt/preview?start=1"></iframe>
-                  : <img src={videoImage} onClick={handleClick} className="w-full h-full"></img>
+                  : <img src={videoImage} onClick={handleClick} className="w-full h-full object-cover"></img>
                 }
               </div>
             </div>
