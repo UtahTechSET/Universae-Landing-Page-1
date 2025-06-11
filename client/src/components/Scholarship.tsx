@@ -8,13 +8,15 @@ const Scholarship = () => {
   };
 
   return (
-    <section className="py-12 bg-muted">
+    <section className="pb-12 bg-muted">
       <div className="container mx-auto px-4">
-        <div className="mb-8 flex">
-          <span className="red-line h-[0.15em] mt-4 w-1/5 sm:w-[3em]"></span>
+        <div className="mb-8 flex flex-col justify-center items-center text-center">
           <div>
-            <h2 className="mb-4 font-bold text-2xl">
-              International Merit-Based Scholarship
+            <h2 className="mb-4 font-med text-2xl ">
+              International{" "}
+              <span className="font-bold">Merit</span> 
+              -Based{" "} 
+              <span className="font-bold text-[--red]">Scholarship</span> 
             </h2>
             <p className="text-secondary text-sm max-w-2xl">
               Utah Tech University is committed to supporting international students 

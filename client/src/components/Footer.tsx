@@ -11,6 +11,7 @@ const Footer = () => {
       {/* Small Footer */}
       <div className="sm:hidden bg-[--red] h-[20em] border-b-[3em] border-foreground
         flex flex-col gap-2 justify-center items-center text-background">
+        
         <h1 className="text-2xl font-semibold">
           Utah Tech University
         </h1>

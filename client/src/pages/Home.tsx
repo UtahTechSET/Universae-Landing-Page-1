@@ -19,15 +19,15 @@ const Home = () => {
         <HeroSection />
 
         <Scholarship />
-        
-        <CreditTransfer />
 
         {/* Red Line Between Section */}
-        <div className="flex flex-row justify-center items-center mb-5">
-          <span className="big-red-line w-1/4 h-[3px] mr-[5em] "></span>
+        <div className="flex flex-row justify-center items-center mt-5 mb-5">
+          <span className="big-red-line w-2/5 h-[3px] mr-[5em] "></span>
         </div>
 
         <SecondHeadline />
+        
+        <CreditTransfer />
 
         <div className="md:relative  md:h-[42em]">
 
