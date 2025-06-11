@@ -22,7 +22,7 @@ const Home = () => {
 
         {/* Red Line Between Section */}
         <div className="flex flex-row justify-center items-center mt-5 mb-5">
-          <span className="big-red-line w-2/5 h-[3px] mr-[5em] "></span>
+          <span className="big-red-line w-full sm:w-2/5 h-[3px] mr-[5em] "></span>
         </div>
 
         <SecondHeadline />

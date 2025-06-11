@@ -1,4 +1,7 @@
 import { useState } from "react";
+import joeImage from "../../../public/images/JoeAsset.png";
+import jeffImage from "../../../public/images/JeffAsset.png";
+import loraImage from "../../../public/images/loraAsset.png";
 
 interface FacultyMember {
   name: string;
@@ -23,7 +26,7 @@ const FacultyBios = () => {
             extensive work in academic IT networks and curriculum development, preparing
             students for careers at the intersection of software and systems engineering.`,
       expertise: ["Multidisciplinary Degrees", "DevOps", "Cloud Computing"],
-      imageUrl: "https://computing.utahtech.edu/wp-content/uploads/sites/273/2019/08/joefrancom.png"
+      imageUrl: joeImage
     },
     "Jeff Compas, M.S.C.S.": {
       name: "Jeff Compas, M.S.C.S.",
@@ -34,7 +37,7 @@ const FacultyBios = () => {
             programming and software design, blending academic rigor with real-world
             application. He also co-founded Contact Climbing Gym in St. George.`,
       expertise: ["Software Architecture", "Software Practices/Methodologies", "Tech Entrepreneurship"],
-      imageUrl: "https://computing.utahtech.edu/wp-content/uploads/sites/273/2024/09/jeff.jpg"
+      imageUrl: jeffImage
     },
     "Lora Klein": {
       name: "Lora Klein",
@@ -44,7 +47,7 @@ const FacultyBios = () => {
             digital experiences at Musicbed and Custom Bit. She brings a student-focused
             approach and a passion for accessible, modern web development.`,
       expertise: ["Front-End Development", "UI/UX Design", "Tech Education"],
-      imageUrl: "https://computing.utahtech.edu/wp-content/uploads/sites/273/2024/07/LoraKlein.jpg"
+      imageUrl: loraImage
     }
   };
 
@@ -62,9 +65,6 @@ const FacultyBios = () => {
     }
   };
 
-
-  // ====================== HTML SECTION ===================================
-  
   return (
     
     <section className="md:absolute md:top-[22em] mt-15" >
@@ -84,7 +84,8 @@ const FacultyBios = () => {
 
       <div
         className="md:flex md:flexbox md:-mt-[70px]
-        bg-muted-foreground pb-5 sm:pt-5 sm:px-5 sm:pb-0 sm:gap-8">
+        bg-muted-foreground sm:pt-5 sm:px-5 sm:gap-8"
+        >
         <div className="md:mt-12 pl-[1em] flex items-center md:w-1/3 mb-7">
           <div>
             <span className="block red-line mt-3 h-[4px]"></span>
@@ -98,18 +99,19 @@ const FacultyBios = () => {
 
         <div className="sm:relative grid grid-cols-3 sm:gap-[1em] lg:gap-[4em]">
           {Object.keys(facultyData).map((name) => (
-            <div key={name} className="relative flex flex-col items-center mb-6">
+            <div key={name} className="relative flex flex-col items-center sm:mb-6">
+              <img className={`h-[60%] sm:h-[10em] mb-2 duration-150
+              ${selectedFaculty === name ? "scale-110" : "scale-100"}`} src={facultyData[name].imageUrl}></img>
               <button 
                 onClick={() => showFacultyAbout(name)} 
-                className={`absolute top-3 left-[1em] sm:left-0 h-6 mb-4 px-4 
+                className="
+                  absolute top-3 left-[1em] sm:left-0 h-6 mb-4 px-4 
                   text-xs border-solid border-2 transition hover:scale-110 duration-150
                   bg-[--red] text-background border-[--red]
-                  ${selectedFaculty === name ? "scale-110" : "scale-100"}`}
+                "
               >
                 About
               </button>
-              {/* <div className="bg-muted w-36 h-24 flex items-center justify-center mb-2"></div> */}
-              <img className="w-28 flex items-center justify-center mb-2" src={facultyData[name].imageUrl}></img>
               <p className="font-sm text-center">{name}</p>
             </div>
           ))}

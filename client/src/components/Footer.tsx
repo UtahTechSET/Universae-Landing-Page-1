@@ -1,6 +1,6 @@
-import facebookImage from "../../../public/images/Facebook.png";
-import instagramImage from "../../../public/images/Instagram.png";
-import xImage from "../../../public/images/X.png";
+import facebookImage from "../../../public/images/fbAsset.png";
+import instagramImage from "../../../public/images/instaAsset.png";
+import xImage from "../../../public/images/xAsset.png";
 
 
 
@@ -64,17 +64,17 @@ const Footer = () => {
           <span> Office hours: 9 a.m. to 5 p.m. </span>
         </h3>
   
-        <div className="flex flex-row gap-6 mt-6">
+        <div className="flex flex-row gap-6 sm:mt-3">
           <a href="https://facebook.com/utahtechu"> 
-            <img className="h-[2em]" src={facebookImage}></img> 
+            <img className="h-[3em]" src={facebookImage}></img> 
           </a>
           
           <a href="https://instagram.com/utahtechu"> 
-            <img className="h-[2em]" src={instagramImage}></img> 
+            <img className="h-[3em]" src={instagramImage}></img> 
           </a>
           
           <a href="https://twitter.com/utahtechu"> 
-            <img className="h-[2em]" src={xImage}></img> 
+            <img className="h-[3em]" src={xImage}></img> 
           </a>
         </div>
         

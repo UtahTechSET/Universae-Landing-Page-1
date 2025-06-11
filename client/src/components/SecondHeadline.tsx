@@ -25,74 +25,59 @@ const SecondHeadline = () => {
   }
 
   return (
-    <section className="md:-mb-2 mt-6 md:mt-0">
-      <div className="text-center mb-4">
-        <h3 className="text-foreground font-choplin-light text-lg">
-          "This is something I'll
-          <br />
-          use for the rest of my life"
-        </h3>
+    <section className="md:-mb-2 mt-6 md:mt-0 flex flex-col justify-center items-center">
+
+      <div className="w-[50%] text-center mb-4 ">
+        
+        {/* Title Section */}
         <h2 className="text-foreground text-2xl md:text-3xl">
-          <span className="font-choplin-medium">Student </span>
-          <span className="font-choplin-medium text-primary">Stories</span>
+          <span className="font-choplin-light">Can you </span>
+          <span className="font-choplin-medium">Solve{" "} </span>
+          <span className="font-choplin-light">It?</span>
         </h2>
+
+        {/* Game Section */}
+        <p className="text-secondary text-sm ">
+          Click the image above to test your skills with 
+          a real challenge built by a Utah Tech{" "}
+          <span className="font-bold">SE{" "}</span> student.
+          If you love solving problems, you belong here.
+        </p>
+        <button className="mt-5" onClick={openGamePopup} >
+          <figure className="mb-2">
+            <img src={infiltrateImage} className="sm:w-[33em]"/>
+            <figcaption className="text-center"> <span className="italic">Infiltrate</span> by Nick De Jong</figcaption>
+          </figure>
+        </button>
       </div>
 
-      <div id="stories">
-      
-        <div className=" ml-[20%]
-          sm:ml-[30%]
-          md:grid md:grid-cols-2 md:h-[25em] md:ml-0">
-          <div className="md:relative mb-[2em] md:mb-5"> 
-            <div className="w-3/4 md:absolute md:right-[3em] lg:-right-[3em]">
+      {/* Red Line seperator */}
+      <div className="bg-[--red] w-[70%] sm:w-1/2 h-1"></div>
 
-              {/* New Section with thumbnail */}
-              <div className="mb-4 w-full sm:w-[20em] sm:h-[15em] border-2">
-                {clickedOnVideo
-                  ? <iframe src="https://drive.google.com/file/d/1MqKUM_45dXKkdaksWRqaz5Z-DG45wWIT/preview" 
-                    allow="autoplay" className="w-full h-full" allowFullScreen></iframe>
-                  : <img src={videoImage} onClick={handleClick} className="w-full h-full"></img>
-                }
-              </div>
-                
-              <div className="w-5/6">
-                <p>
-                  <span className="red-line w-[1em] h-[2px]"></span>
-                  <span className="font-bold">Testimonials</span>
-                </p>
-                <p className="text-secondary text-xs ml-2 w-full sm:w-5/6">
-                  Paula, an international student from Spain,
-                  reflects on the real-world learning she gained
-                  in the Computer Science program.
-                </p>
-              </div>          
-            </div>
-          </div>
-  
-          <div className="md:relative mb-[2em] md:mb-5 md:ml-5">
-            <div className="md:absolute md:top-[3em] w-3/4 md:left-[1em]">
-              <button onClick={openGamePopup} >
-                <figure className="mb-2 sm:w-[20em]">
-                  <img src={infiltrateImage} className="sm:w-[20em] sm:h-[15em]"/>
-                  <figcaption className="text-center"> <span className="italic">Infiltrate</span> by Nick De Jong</figcaption>
-                </figure>
-              </button>
-    
-              <div className="w-5/6">
-                <h2 className="mb-2">
-                  <span className="red-line w-[1em] h-[2px]"></span>
-                  <span className="font-bold">Can You Beat It?</span>
-                </h2>
-                <p className="text-secondary text-xs ml-2 w-full sm:w-5/6">
-                  Click the image above to test your skills with 
-                  a real challenge built by a Utah Tech{" "}
-                  <span className="font-bold">SE{" "}</span> student.
-                  If you love solving problems, you belong here.
-                </p>
-              </div>
-            </div>
-          </div>
+
+      {/* Paula Section */}
+      <div className="ml-5 mt-8 flex flex-col md:flex-row justify-center items-center sm:gap-12">
+        
+        <div className="mb-4">
+          {clickedOnVideo
+            ? <iframe src="https://drive.google.com/file/d/1MqKUM_45dXKkdaksWRqaz5Z-DG45wWIT/preview" 
+              allow="autoplay" className="w-[26.5em] h-[15em]" allowFullScreen></iframe>
+            : <img src={videoImage} onClick={handleClick} className="h-[13em] sm:h-[15em]"></img>
+          }
         </div>
+
+        <div className="w-[80%] md:w-[40%]">
+          <p>
+            <span className="invisible md:visible red-line w-[2em] h-[3px]"></span>
+            <span className="font-bold text-xl">Testimonial</span>
+          </p>
+          <p className="text-secondary text-sm ml-2 w-full md:w-[90%]">
+            Paula, an international student from Spain,
+            reflects on the real-world learning she gained
+            in the Computer Science program.
+          </p>
+        </div>
+
       </div>
     </section>
   );
