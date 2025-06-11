@@ -1,6 +1,6 @@
 import infiltrateImage from "../../../public/images/infiltrate_screenshot.png";
 import { useState } from 'react';
-import videoImage from "../../../public/images/temp_thumbnail.jpg";
+import videoImage from "../../../public/images/Paula_Thumbnail.png";
 
 
 const openGamePopup = () => {
@@ -51,7 +51,7 @@ const SecondHeadline = () => {
                 {clickedOnVideo
                   ? <iframe src="https://drive.google.com/file/d/1MqKUM_45dXKkdaksWRqaz5Z-DG45wWIT/preview" 
                     allow="autoplay" className="w-full h-full" allowFullScreen></iframe>
-                  : <img src={videoImage} onClick={handleClick} className="w-full h-full object-cover"></img>
+                  : <img src={videoImage} onClick={handleClick} className="w-full h-full"></img>
                 }
               </div>
                 

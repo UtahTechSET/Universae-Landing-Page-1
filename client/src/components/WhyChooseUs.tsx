@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useState } from 'react';
-import videoImage from "../../../public/images/temp_thumbnail.jpg";
+import videoImage from "../../../public/images/Jeff_Thumbnail.png";
 
 
 
@@ -46,7 +46,10 @@ const WhyChooseUs = () => {
   
               <Button className="rounded-none text-background bg-primary font-light px-8 py-2 
                 hover:scale-110 transform transition duration-y mt-8">
-                <a href="javascript:void( window.open( 'https://form.jotform.com/251595236042152', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=700, screenX=300, screenY=150') )" className="w-full h-full">
+                <a href="javascript:void( window.open( 
+                      'https://form.jotform.com/251595236042152', 'blank', 'scrollbars=yes, 
+                      toolbar=no, width=700, height=700, screenX=300, screenY=150') )" 
+                  className="w-full h-full">
                   Start Your Journey
                 </a>
               </Button>

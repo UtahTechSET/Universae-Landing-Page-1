@@ -18,40 +18,43 @@ const HeroSection = () => {
           sm:ml-0 sm:w-[8em]"
         ></div>
         <div className="inline-block mr-5">
-          <h2 className="mb-4">
-            <span className="text-foreground font-choplin-light text-xl md:text-2xl">
-              Earn a U.S. Degree
+          <h2 className="mb-4 text-foreground font-choplin-light text-xl md:text-2xl">
+            Earn a U.S. Degree With{" "}
+            <span className="text-foreground font-choplin-medium text-xl md:text-2xl">
+              Universae{" "}
             </span>
             <br />
+            and{" "}
             <span className="text-foreground font-choplin-medium text-xl md:text-2xl">
-              Online{" "}
+            Utah Tech University
             </span>
-            <span className="text-foreground font-choplin-light text-xl md:text-2xl">
-              or{" "}
-            </span>
+            <br />
+            Study{" "}
             <span className="text-foreground font-choplin-medium text-xl md:text-2xl">
-              On Campus
+            Online{" "}
+            </span>
+            or{" "}
+            <span className="text-foreground font-choplin-medium text-xl md:text-2xl">
+            on campus
             </span>
           </h2>
+          
           <div className="w-[90%] sm:w-[75%]">
             <p className="text-secondary text-sm mb-4">
-              Utah Tech University offers international students a flexible,
-              affordable path to complete a bachelor's degree in tech.
-              Transfer up to 90 credits and finish your degree in as little as
-              two years.
+              Through an academic partnership with Universae, international students have a direct, 
+              affordable pathway to earn a U.S. bachelor's degree in technology from Utah Tech University. 
+              Transfer up to 90 eligible credits from Universae and complete a degree in as little as two years.
             </p>
 
             <p className="text-secondary text-sm">
-              Choose from two in-demand programs: software
-              engineering or information technology. Students gain
-              hands-on experience through real-world projects and use
-              the same tools and platforms professionals rely on.
+              Choose from two high-demand programs—software engineering or information technology—and
+              gain hands-on experience through real-world projects using industry-standard tools.
             </p>
 
             <ul className="listwithcheckmark text-secondary text-sm mt-5 pl-4">
-              <li>Hyflex learning: attend online or in-person</li>
-              <li>Scholarships available for international students</li>
-              <li>Transfer up to 90 credits</li>
+              <li>HyFlex learning: study online, in person or both</li>
+              <li>Merit-based scholarships available for international students</li>
+              <li>Transfer up to 90 credits from Universae toward a U.S. degree</li>
             </ul>
           </div>
         </div>

@@ -32,9 +32,9 @@ const Scholarship = () => {
             onClick={toggleExpanded}
           >
             <h3 className="font-light text-lg sm:text-3xl">
-              Get paid{" "}
+              Earn{" "}
               <span className="text-3xl sm:text-5xl font-bold mb-2">$5,500 </span>
-              per year to learn at Utah Tech*
+              a year while studying at Utah Tech*
             </h3>
             <div className="flex justify-center items-center mt-2">
               <span className="text-sm mr-2">View Requirements</span>
@@ -88,15 +88,21 @@ const Scholarship = () => {
                 <div className="space-y-2">
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-secondary rounded-full flex-shrink-0"></div>
-                    <span className="text-sm">Multiplatform</span>
+                    <span className="text-sm">
+                      Advanced Technician in Multiplatform Application Development (MAP), Online
+                    </span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-secondary rounded-full flex-shrink-0"></div>
-                    <span className="text-sm">Web App</span>
+                    <span className="text-sm">
+                      Advanced Technician in Online Web Application Development (DAW)
+                    </span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-secondary rounded-full flex-shrink-0"></div>
-                    <span className="text-sm">Information Systems</span>
+                    <span className="text-sm">
+                      Advanced Technician in Network Systems Administration (ASIR)
+                    </span>
                   </div>
                 </div>
               </div>
