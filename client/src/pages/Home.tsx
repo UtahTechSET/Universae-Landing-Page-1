@@ -29,12 +29,14 @@ const Home = () => {
         
         <CreditTransfer />
 
-        <div className="md:relative  md:h-[42em]">
+        {/* <div className="md:relative  md:h-[42em]"> */}
 
-          <BottomSection />
-          <BenefitsCurriculum />
-          <FacultyBios />
-        </div>
+          {/* <BottomSection /> */}
+        
+        <BenefitsCurriculum />
+        <FacultyBios />
+        
+        {/* </div> */}
         
         <WhyChooseUs />
           

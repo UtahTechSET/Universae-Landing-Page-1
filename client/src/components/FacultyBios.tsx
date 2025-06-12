@@ -66,8 +66,7 @@ const FacultyBios = () => {
   };
 
   return (
-    
-    <section className="md:absolute md:top-[22em] mt-15 w-full" >
+    <section className=" w-full" >
       <div className="md:grid md:grid-cols-12 md:gap-4">
         <div
           className="col-span-12 bg-primary px-4
