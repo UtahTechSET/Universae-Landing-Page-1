@@ -53,7 +53,7 @@ const FacultyBios = () => {
 
   const showFacultyAbout = (prof: string) => {
     if (window.innerWidth < 640) {
-      window.scrollTo({ top: 4700, behavior: "smooth" });
+      window.scrollTo({ top: 4300, behavior: "smooth" });
     }
       
     if (selectedFaculty === prof) {
@@ -67,7 +67,7 @@ const FacultyBios = () => {
 
   return (
     
-    <section className="md:absolute md:top-[22em] mt-15" >
+    <section className="md:absolute md:top-[22em] mt-15 w-full" >
       <div className="md:grid md:grid-cols-12 md:gap-4">
         <div
           className="col-span-12 bg-primary px-4
@@ -97,7 +97,8 @@ const FacultyBios = () => {
           </div>
         </div>
 
-        <div className="sm:relative grid grid-cols-3 sm:gap-[1em] lg:gap-[4em]">
+        <div className="grid grid-cols-3 lg:ml-[3em]
+          sm:relative sm:gap-[1em] lg:gap-[4em]">
           {Object.keys(facultyData).map((name) => (
             <div key={name} className="relative flex flex-col items-center sm:mb-6">
               <img className={`h-[60%] sm:h-[10em] mb-2 duration-150

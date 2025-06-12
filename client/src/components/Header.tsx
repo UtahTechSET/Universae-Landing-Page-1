@@ -27,8 +27,8 @@ const Header = () => {
       before:z-[-5]
       
       before:bg-header-gradient-small
-      before:from-[rgba(170,53,50,.8)_20em]
-      before:to-[rgba(0,0,0,0)_20em]
+      before:from-[rgba(170,53,50,.8)_18em]
+      before:to-[rgba(0,0,0,0)_18em]
       
       before:sm:bg-header-gradient-main
       before:sm:from-[rgba(170,53,50,.8)_23em]
@@ -39,7 +39,7 @@ const Header = () => {
       "
     >
       <div className="
-        h-8 bg-header-gradient-small from-[rgba(0,0,0,0)_20em] to-[rgba(255,255,255,1)_20em]
+        h-8 bg-header-gradient-small from-[rgba(0,0,0,0)_18em] to-[rgba(255,255,255,1)_18em]
         sm:h-5 sm:bg-header-gradient-main sm:from-[rgba(0,0,0,0)_23em] sm:to-[rgba(255,255,255,1)_23em]
         md:from-[rgba(0,0,0,0)_29em] md:to-[rgba(255,255,255,1)_29em]
         "
