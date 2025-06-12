@@ -27,7 +27,7 @@ const SecondHeadline = () => {
   return (
     <section className="md:-mb-2 mt-6 md:mt-0 flex flex-col justify-center items-center">
 
-      <div className="w-[50%] text-center mb-4 ">
+      <div className="w-[80%] sm:w-[50%] text-center mb-4 ">
         
         {/* Title Section */}
         <h2 className="text-foreground text-2xl md:text-3xl">
@@ -68,10 +68,10 @@ const SecondHeadline = () => {
 
         <div className="w-[80%] md:w-[40%]">
           <p>
-            <span className="invisible md:visible red-line w-[2em] h-[3px]"></span>
+            <span className="hidden md:inline-block red-line w-[2em] h-[3px]"></span>
             <span className="font-bold text-xl">Testimonial</span>
           </p>
-          <p className="text-secondary text-sm ml-2 w-full md:w-[90%]">
+          <p className="text-secondary text-sm w-full md:w-[90%]">
             Paula, an international student from Spain,
             reflects on the real-world learning she gained
             in the Computer Science program.

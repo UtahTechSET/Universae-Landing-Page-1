@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
   }
   
   return (
-    <section className="sm:relative mb-16 px-8 md:px-2 lg:px-8">
+    <section className="sm:relative mb-8 lg:mb-16 px-8 md:px-2 lg:px-8">
       <div className="sm:absolute sm:right-10 sm:top-5 big-red-line w-[15em] h-[3px]"></div>
 
       <div className="pt-[2em]">
@@ -27,10 +27,10 @@ const WhyChooseUs = () => {
               }
             </div>
 
-            <span className="red-line w-[5em] mt-[1.2em] h-[2.5px]"></span>
+            <span className="hidden sm:block red-line w-[5em] mt-[1.2em] h-[2.5px]"></span>
 
-            <div>
-              <h3 className="mb-4 text-4xl">
+            <div className="flex flex-col justify-center items-center sm:block">
+              <h3 className="mb-4 text-4xl justify-self-start mt-5 sm:mt-0">
                 <span className="font-choplin-light">Why </span>
                 <span className="font-choplin-medium">Choose Us?</span>
               </h3>
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
               <div className="big-red-line ml-3 sm:mt-8 w-[90%] h-[3px]"></div>
          
   
-              <Button className="rounded-none text-background bg-primary font-light px-8 py-2 
+              <Button className="w-[15em] justify-self-center rounded-none text-background bg-primary font-light px-8 py-2 
                 hover:scale-110 transform transition duration-y mt-8">
                 <a href="javascript:void( window.open( 
                       'https://form.jotform.com/251595236042152', 'blank', 'scrollbars=yes, 

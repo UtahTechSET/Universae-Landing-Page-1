@@ -17,15 +17,15 @@ const BenefitsCurriculum = () => {
             <span className="red-line h-[2px] bg-red w-[8em] mt-[16px]"></span>
             <div>
               <h3 className="mb-3">
-                <span className="text-2xl font-choplin-medium">Benefits</span>
+                <span className="text-2xl md:text-3xl font-choplin-medium">Benefits</span>
               </h3>
-              <p className="text-[#D9D9D9] text-xs mb-4">
+              <p className="text-[#D9D9D9] text-xs lg:text-sm mb-4">
                 Utah Tech's polytechnic approach prepares students for today's
                 workforce. The curriculum emphasizes applied learning,
                 collaboration and industry experience. Small class sizes and expert
                 faculty create an environment where students succeed.
               </p>
-              <p className="text-[#D9D9D9] text-xs">
+              <p className="text-[#D9D9D9] text-xs lg:text-sm">
                 Being located in St. George, attending Utah Tech means a low 
                 cost of living, beautiful surroundings and proximity close to Las Vegas. 
                 Students can choose fully online or in-person options through 

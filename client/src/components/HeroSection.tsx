@@ -5,7 +5,7 @@ import heroImage from "../../../public/images/hero1.jpg";
 const HeroSection = () => {
   return (
     <section className=" bg-muted sm:pt-12 py-5 flex flex-col justify-center items-center">
-      <div className="sm:flex sm:flex-row sm:gap-4 sm:pl-8" >
+      <div className="md:flex md:flex-row md:gap-4 sm:pl-8" >
         <div className="w-full mb-5 ml-0 flex flex-row justify-center items-center md:ml-[3em] ">
           <img src={heroImage} className="w-1/2 max-w-[25em] sm:w-full sm:min-h-[267px] sm:min-w-[267px]"></img>
         </div>
@@ -50,9 +50,9 @@ const HeroSection = () => {
               </p>
   
               <ul className="listwithcheckmark text-secondary text-sm mt-5 pl-4">
-                <li>HyFlex learning: study online, in person or both</li>
-                <li>Merit-based scholarships available for international students</li>
-                <li>Transfer up to 90 credits from Universae toward a U.S. degree</li>
+                <li className="pl-1 md:pl-2">HyFlex learning: study online, in person or both</li>
+                <li className="pl-1 md:pl-2">Merit-based scholarships available for international students</li>
+                <li className="pl-1 md:pl-2">Transfer up to 90 credits from Universae toward a U.S. degree</li>
               </ul>
             </div>
           </div>
