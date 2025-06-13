@@ -53,7 +53,7 @@ const FacultyBios = () => {
 
   const showFacultyAbout = (prof: string) => {
     if (window.innerWidth < 640) {
-      window.scrollTo({ top: 4300, behavior: "smooth" });
+      window.scrollTo({ top: 4800, behavior: "smooth" });
     }
       
     if (selectedFaculty === prof) {
@@ -64,6 +64,14 @@ const FacultyBios = () => {
       setSelectedFaculty(prof);
     }
   };
+
+  const closeButtonClicked = () => {
+    console.log("Show button clicked");
+    setSelectedFaculty(null);
+    if (window.innerWidth < 640) {
+      window.scrollTo({ top: 4600, behavior: "smooth" });
+    }
+  }
 
   return (
     <section className="md:mt-[-6em] w-full" >
@@ -83,7 +91,7 @@ const FacultyBios = () => {
 
       <div
         className="md:flex md:flexbox md:-mt-[70px]
-        bg-muted-foreground sm:pt-5 sm:px-5 sm:gap-8"
+        bg-muted-foreground pb-3 sm:pb-0 sm:pt-5 sm:px-5 sm:gap-8"
         >
         <div className="md:mt-12 pl-[1em] flex items-center md:w-1/3 mb-7">
           <div>
@@ -100,7 +108,7 @@ const FacultyBios = () => {
           sm:relative sm:gap-[1em] lg:gap-[4em]">
           {Object.keys(facultyData).map((name) => (
             <div key={name} className="relative flex flex-col items-center sm:mb-6">
-              <img className={`h-[60%] sm:h-[10em] mb-2 duration-150
+              <img className={`h-[7em] sm:h-[10em] mb-2 duration-150
               ${selectedFaculty === name ? "scale-110" : "scale-100"}`} src={facultyData[name].imageUrl}></img>
               <button 
                 onClick={() => showFacultyAbout(name)} 
@@ -121,7 +129,7 @@ const FacultyBios = () => {
       {/* Faculty Bio Details Panel - Hidden by default */}
       <div 
         className={`transition-all duration-300 overflow-hidden bg-white 
-        border-t-4 border-primary mx-4 sm:mx-8 shadow-md relative z-10
+        border-t-4 border-primary mx-4 sm:mx-8 shadow-md relative z-10 
         ${selectedFaculty ? 'opacity-100 py-6 px-8 mb-8' : 'opacity-0 py-0 px-0 h-0'}`}
       >
         {selectedFaculty && (
@@ -147,7 +155,7 @@ const FacultyBios = () => {
               </ul>
               
               <button 
-                onClick={() => setSelectedFaculty(null)}
+                onClick={() => closeButtonClicked() }
                 className="mt-6 text-xs text-primary border border-primary px-3 py-1 
                 hover:bg-primary hover:text-white transition-colors"
               >
