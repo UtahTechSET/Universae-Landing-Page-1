@@ -17,7 +17,7 @@ const openGamePopup = () => {
 };
 
 
-const SecondHeadline = () => {
+const GameAndTestimonial = () => {
   const [clickedOnVideo, setclickedOnVideo] = useState(false);
 
   function handleClick() {
@@ -83,4 +83,4 @@ const SecondHeadline = () => {
   );
 };
 
-export default SecondHeadline;
+export default GameAndTestimonial;

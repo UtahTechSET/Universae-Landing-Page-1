@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
               <div className="big-red-line ml-3 sm:mt-8 w-[90%] h-[3px]"></div>
          
   
-              <Button className="w-[15em] justify-self-center rounded-none text-background bg-primary font-light px-8 py-2 
+              <button className="w-[15em] justify-self-center rounded-none text-background bg-primary font-light px-8 py-2 
                 hover:scale-110 transform transition duration-y mt-8">
                 <a href="javascript:void( window.open( 
                       'https://form.jotform.com/251595236042152', 'blank', 'scrollbars=yes, 
@@ -55,7 +55,7 @@ const WhyChooseUs = () => {
                   className="w-full h-full">
                   Start Your Journey
                 </a>
-              </Button>
+              </button>
             </div>
           </div>
 
@@ -64,7 +64,7 @@ const WhyChooseUs = () => {
             <div className="relative w-full h-80 max-w-[28em]">
               <div className="absolute top-6 lg:top-12 left-4 w-[27em] h-[15em] lg:w-[30em] lg:h-[17.5em] bg-primary"></div>
 
-              {/* New Section with thumbnail */}
+              {/* Thumbnail with video */}
               <div className="absolute top-2 lg:top-8 w-[27em] h-[15em] lg:w-[30em] lg:h-[17.5em] bg-muted  shadow-lg">
                 {clickedOnVideo
                   ? <iframe className="w-full h-full" allow="autoplay" allowFullScreen

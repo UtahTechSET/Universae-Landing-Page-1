@@ -1,6 +1,4 @@
-import whiteLogo from "../../../public/images/whiteUTlogoAsset1.png";
 import combinedLogo from "../../../public/images/bitmap.png";
-
 import headerImage from "../../../public/images/header_hero.jpg";
 
 
@@ -38,6 +36,7 @@ const Header = () => {
       before:md:to-[rgba(0,0,0,0)_29em]
       "
     >
+          {/* Top bar for angled gradient thing (the part with the white) */}
       <div className="
         h-8 bg-header-gradient-small from-[rgba(0,0,0,0)_18em] to-[rgba(255,255,255,1)_18em]
         sm:h-5 sm:bg-header-gradient-main sm:from-[rgba(0,0,0,0)_23em] sm:to-[rgba(255,255,255,1)_23em]
@@ -49,16 +48,14 @@ const Header = () => {
         <div className="flex flex-col md:flex-row justify-between items-start">
           <div className="mb-8 md:mb-0">
            
-            {/* The top logo and their respective links*/}
+              {/* The top combined logo and their respective links*/}
             <div className="relative h-[8em]">
               <img src={combinedLogo} className="h-[5em] mb-5 sm:ml-10 absolute" />
-              {/* bg-foreground opacity-50 */}
               <a className="absolute w-[9em] h-[5em] left-[-0.4em] sm:left-[2em]"
-                href="https://utahtech.edu/">
+                href="https://utahtech.edu/" target="_blank">
               </a>
-              {/* bg-red-500 opacity-50 */}
               <a className="absolute w-[5em] h-[5em] left-[10.4em] sm:left-[13em]"
-                href="https://universae.com/">
+                href="https://universae.com/" target="_blank">
               </a>
             </div>
          
@@ -68,7 +65,7 @@ const Header = () => {
             </p>
 
             <div id="zero-to-hero" className="sm:inline-block mb-6 w-full">
-              <span className="hidden sm:visible
+              <span className="sm:visible
                 white-line block mb-5
                 sm:inline-block
                 "
@@ -90,6 +87,7 @@ const Header = () => {
               </div>
             </div>
 
+                {/* This button links and opens the Jotform to fill out contact info */}
             <a
               href="javascript:void( window.open( 'https://form.jotform.com/251595236042152', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=700, screenX=300, screenY=150') )"
               className="sm:ml-10 px-6 py-2 bg-transparent  border-white font-light text-white 
@@ -99,8 +97,7 @@ const Header = () => {
             </a>
           </div>
 
-          {/* Search Bar looking thing small */}
-
+              {/* Search Bar looking thing small */}
           <div className="md:hidden w-full md:w-1/2 ">
             <div
               className="bg-white h-10 w-full
@@ -109,7 +106,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Search Bar looking thing bigger */}
+            {/* Search Bar looking thing bigger */}
         <div className="invisible md:visible absolute top-[3em] -right-10 w-[60%] lg:w-[70%]">
           <div
             className="bg-white h-12 w-full overflow-visible

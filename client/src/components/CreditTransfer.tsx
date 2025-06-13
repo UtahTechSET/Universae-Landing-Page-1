@@ -19,7 +19,7 @@ const CreditTransfer = () => {
         <div className="overflow-x-auto shadow-lg">
           <table className="w-full bg-white border border-muted">
             <thead className="bg-primary">
-              <tr>
+              <tr className="">
                 <th className="px-1 sm:px-6 py-2 sm:py-4 text-center sm:text-left text-white font-semibold border-r border-white">
                   Universae Academic Program
                 </th>

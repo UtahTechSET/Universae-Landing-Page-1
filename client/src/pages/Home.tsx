@@ -2,8 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import Scholarship from "@/components/Scholarship";
 import CreditTransfer from "@/components/CreditTransfer";
-import SecondHeadline from "@/components/SecondHeadline";
-import BottomSection from "@/components/BottomSection";
+import GameAndTestimonial from "@/components/GameAndTestimonial";
 import BenefitsCurriculum from "@/components/BenefitsCurriculum";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Footer from "@/components/Footer";
@@ -25,24 +24,20 @@ const Home = () => {
           <span className="big-red-line w-full sm:w-2/5 h-[3px] mr-[5em] "></span>
         </div>
 
-        <SecondHeadline />
+        <GameAndTestimonial />
         
         <CreditTransfer />
 
-        {/* <div className="md:relative  md:h-[42em]"> */}
-
-          {/* <BottomSection /> */}
-        
         <BenefitsCurriculum />
-        <FacultyBios />
         
-        {/* </div> */}
+        <FacultyBios />
         
         <WhyChooseUs />
           
       </main>
 
       <Footer />
+
     </div>
   );
 };

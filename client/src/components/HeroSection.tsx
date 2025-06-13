@@ -59,7 +59,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Black line at bottom */}
+        {/* Black line at bottom */}
       <div className="bg-foreground w-[82%] h-1 "></div>
       
     </section>
