@@ -62,14 +62,14 @@ const WhyChooseUs = () => {
 
           <div className="hidden md:visible  md:flex  md:items-center  md:justify-center w-[95%]">
             <div className="relative w-full h-80 max-w-[28em]">
-              <div className="absolute top-6 lg:top-12 left-4 w-[27em] h-[15em] lg:w-[28em] lg:h-[17.5em] bg-primary"></div>
+              <div className="absolute top-6 lg:top-12 left-4 w-[27em] h-[15em] lg:w-[30em] lg:h-[17.5em] bg-primary"></div>
 
               {/* New Section with thumbnail */}
-              <div className="absolute top-2 lg:top-8 w-[27em] h-[15em] lg:w-[28em] lg:h-[17.5em] bg-muted  shadow-lg">
+              <div className="absolute top-2 lg:top-8 w-[27em] h-[15em] lg:w-[30em] lg:h-[17.5em] bg-muted  shadow-lg">
                 {clickedOnVideo
                   ? <iframe className="w-full h-full" allow="autoplay" allowFullScreen
                     src="https://drive.google.com/file/d/1gZBwvVhIBYubbKeviHbVJH-8ghDNUOmt/preview?start=1"></iframe>
-                  : <img src={videoImage} onClick={handleClick} className="w-full h-full"></img>
+                  : <img src={videoImage} onClick={handleClick} className="h-full"></img>
                 }
               </div>
             </div>
